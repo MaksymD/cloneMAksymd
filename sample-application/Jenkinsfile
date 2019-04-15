@@ -17,8 +17,9 @@ pipeline {
         stage('syntax check') {
             steps {
                 dir('sample-application') {
-                sh 'vendor/bin/parallel-lint --exclude ./vendor/ .'
+                sh './vendor/bin/parallel-lint --exclude ./vendor/ .'
                 //sh './bin/parallel-lint --exclude app --exclude vendor .'
+
 
                 }
                 timeout(time: 15, unit: 'MINUTES'){
