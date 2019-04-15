@@ -14,7 +14,19 @@
               <id>b48c079b-1ce4-4d1b-9f4f-441b407da842</id>
               <description></description>
               <username>maksym.dotsenko@gmail.com</username>
-              <password>{AQAAABAAAAAQLXNs1Ow61YWif50Ldyth9L7fyIqu7M1m2pnQS6dikTw=}</password>
+              <password>{AQAAABAAAABAjWt6BG9/ARu1gLVNLYYWCXGgp+GD+NJEBMv7zEC2yDCpsw/SYzeQ5I65FvWj8Uvj6PauIx8HXpM/La2/YNlhG+Ib2SdHe8EwPhUicgTESH8=}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.1.18">
+              <id>3383515d-c69a-43e0-a385-85eaa3f3d7a0</id>
+              <description></description>
+              <username>maksym.dotsenko@gmail.com</username>
+              <password>{AQAAABAAAAAQ3wzuQ1CdgDQYwfDs5AOrkMHtYRvlO8UiIgg2uu7XAy4=}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.1.18">
+              <id>cbe00833-e445-43b9-8320-5da1d502c4da</id>
+              <description></description>
+              <username>maksym.dotsenko@gmail.com</username>
+              <password>{AQAAABAAAAAQBS1RdZNABASpcVO7nTfszbdpO45YexIqxjMBlTcgVuQ=}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
           </java.util.concurrent.CopyOnWriteArrayList>
         </entry>
@@ -44,7 +56,7 @@
       <jenkins.branch.BranchSource>
         <source class="jenkins.plugins.git.GitSCMSource" plugin="git@3.9.3">
           <id>37fa2505-f32d-4f81-88ec-e5e07c3d315f</id>
-          <remote>https://github.com/xing/test_qa_integration_kununu-MaksymD.git</remote>
+          <remote>https://github.com/MaksymD/cloneMAksymd.git</remote>
           <credentialsId>37524644-2c11-4e16-b367-52c1f10329c9</credentialsId>
           <traits>
             <jenkins.plugins.git.traits.BranchDiscoveryTrait/>

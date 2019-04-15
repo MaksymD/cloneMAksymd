@@ -5,7 +5,7 @@
       <string>37fa2505-f32d-4f81-88ec-e5e07c3d315f</string>
       <list>
         <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@3.9.3">
-          <remote>https://github.com/xing/test_qa_integration_kununu-MaksymD.git</remote>
+          <remote>https://github.com/MaksymD/cloneMAksymd.git</remote>
           <name>master</name>
         </jenkins.plugins.git.GitRemoteHeadRefAction>
       </list>
