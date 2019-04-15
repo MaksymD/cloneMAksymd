@@ -1,0 +1,13 @@
+commit 7c89e42df35c0d7b03345f435c9a08cb8df95be5
+tree 52ecd2d7a84be02c4e7eb42c621cbde527d03555
+parent 35252b0ce6993319fe28232fc007ad52fbc0f9d0
+author maksymd <maksym.dotsenko@gmail.com> 2019-04-15 04:21:12 +0200
+committer maksymd <maksym.dotsenko@gmail.com> 2019-04-15 04:21:12 +0200
+
+    1
+
+
+
+:100644 100644 8445d47885ea780d123a595aee16c3b9c101ab9e 67b15ce68b54655e2c5be3b7b82ade8b77ea2fa9 M	jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log
+:100755 100755 c15775946311eb0f3667b18126a03c9181c4cc3b d212f5829a92ddd55cfad61d2a43dd977536c55a M	sample-application/Dockerfile
+:100755 100755 da75d078b22d7d1c56e4f72ef3d0a917bf253a0a d1f0e6b68eb1c5401646da4628615b032e6fc143 M	sample-application/Jenkinsfile

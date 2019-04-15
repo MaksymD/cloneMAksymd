@@ -2,7 +2,6 @@ pipeline {
     agent {
         dockerfile {
             filename 'sample-application/Dockerfile'
-            args 'network kununu -p 8000:8000'
             }
         }
     stages {

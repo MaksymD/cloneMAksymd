@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.66">
+    <parentIds>
+      <string>15</string>
+    </parentIds>
+    <id>16</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.66">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>docker build -t 9d8b3d6a3b2af81f1db603c2178ddb4886c1aa08 -f &quot;sample-application/Dockerfile&quot; &quot;.&quot;</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1555294208008</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>
