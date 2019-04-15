@@ -28,6 +28,7 @@ RUN npm -v
 RUN npm install -g newman
 
 RUN composer install
+RUN composer require --dev jakub-onderka/php-parallel-lint -y
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
 CMD ["php", "bin/console", "server:run", "*:8000" ]
