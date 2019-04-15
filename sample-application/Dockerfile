@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update >/dev/null && \
-        apt-get install apt-utils --no-install-recommends -y \
+        apt-get install --assume-yes apt-utils --no-install-recommends -y \
           php composer git vim \
           libapache2-mod-php7.2 \
             php7.2-cli \
@@ -32,4 +32,5 @@ RUN composer require --dev jakub-onderka/php-parallel-lint
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
 CMD ["php", "bin/console", "server:run", "*:8000" ]
+//ENV DEBIAN_FRONTEND teletype
 
