@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.github.admin.GitHubHookRegisterProblemMonitor plugin="github@1.29.4">
+  <id>GitHubHookRegisterProblemMonitor</id>
+  <ignored>
+    <com.cloudbees.jenkins.GitHubRepositoryName>
+      <host>github.com</host>
+      <userName>xing</userName>
+      <repositoryName>test_qa_integration_kununu-MaksymD</repositoryName>
+    </com.cloudbees.jenkins.GitHubRepositoryName>
+  </ignored>
+</org.jenkinsci.plugins.github.admin.GitHubHookRegisterProblemMonitor>

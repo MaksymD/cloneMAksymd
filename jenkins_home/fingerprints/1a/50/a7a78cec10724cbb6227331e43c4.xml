@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-12 05:09:59.56 UTC</timestamp>
+  <md5sum>1a50a7a78cec10724cbb6227331e43c4</md5sum>
+  <fileName>Credential id=28339da6-c877-4d0f-a82d-5aa2a6442abf name=maksymd/******</fileName>
+  <usages>
+    <entry>
+      <string>Sample_Docker</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>Sample_Tests</string>
+      <ranges>4-7</ranges>
+    </entry>
+    <entry>
+      <string>Sample_Pipeline/j_pipeline</string>
+      <ranges>1-11</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,23 @@
+version: '3'
+services:
+  unit-tests:
+    image: unit
+    command: npm run test
+    volumes:
+#     - "./unit/src:/app/src"
+  api-tests:
+    image: api
+    command: npm run test
+    volumes:
+#     - "./api/src:/app/src"
+  e2e-tests:
+    image: e2e
+    command: npm run test
+    volumes:
+#      - "./e2e/src:/app/src"
+
+
+  todos:
+    - Write: rewrite dockerfile for this
+    - Write : unit & api & e2e test
+    - Run info: Run docker-compose first / docker-compose --file docker-compose.local-tests.yml up api-tests / only api tests

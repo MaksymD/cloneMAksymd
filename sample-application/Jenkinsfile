@@ -1,0 +1,89 @@
+pipeline {
+    agent {
+        dockerfile {
+            filename 'sample-application/Dockerfile'
+            }
+        }
+    stages {
+        stage('pre-define') {
+            steps {
+                dir('sample-application') {
+                sh 'composer update'
+                }
+                timeout(time: 15, unit: 'MINUTES'){
+                }
+            }
+        }
+        stage('syntax check') {
+            steps {
+                dir('sample-application') {
+                //sh 'vendor/bin/parallel-lint --exclude ./vendor/ .'
+                sh './bin/parallel-lint --exclude app --exclude vendor .'
+                sh 'vendor/bin/parallel-lint --exclude app --exclude vendor .'
+                }
+                timeout(time: 15, unit: 'MINUTES'){
+                }
+            }
+        }
+        stage('checkstyle') {
+            steps {
+                dir('sample-application') {
+                sh 'vendor/bin/phpcs --report=checkstyle --report-file=`pwd`/build/logs/checkstyle.xml --extensions=php --ignore=vendor/,var/ . || exit 0'
+                checkstyle pattern: 'build/logs/checkstyle.xml'
+                }
+                timeout(time: 15, unit: 'MINUTES'){
+                }
+            }
+        }
+        stage('copy paste detection') {
+            steps {
+                dir('sample-application') {
+                sh 'vendor/bin/phpcpd --log-pmd build/logs/pmd-cpd.xml --exclude vendor . || exit 0'
+                dry canRunOnFailed: true, pattern: 'build/logs/pmd-cpd.xml'
+                }
+            }
+        }
+        stage('test: Unit Tests') {
+            steps {
+                dir('sample-application') {
+                echo 'Starting Unit/Functional Tests'
+                sh 'vendor/bin/phpunit -c phpunit.xml || exit 0'
+                }
+            }
+        }
+        stage('test: Functional Tests') {
+            steps {
+                dir('sample-application') {
+                echo 'Starting Postman Functional Tests'
+                sh 'newman run https://www.getpostman.com/collections/8db8a2486b1224a3c7d2'
+                }
+            }
+        }
+        stage('email'){
+            steps {
+                emailext (
+                    subject: "Sample",
+                    body: "Greatings from Jenkins!",
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider']] )
+                }
+            }
+        }
+        post {
+            success {
+                echo 'Send mail on success'
+                emailext (
+                    subject: "SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+                    body: """<p>SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+                    <p>Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>""",
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider']] )
+                }
+            failure {
+                echo 'Send mail on failure'
+                emailext (
+                    subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+                    body: """<p>FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+                    <p>Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>""",
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider']] )
+                }
+            }
+}

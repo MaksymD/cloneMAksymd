@@ -1,0 +1,84 @@
+version: "3"
+
+networks:
+  kununu:
+    driver: bridge
+
+services:
+  web:
+    build:
+      context: ./sample-application
+      dockerfile: Dockerfile
+    image: php:7.2-apache
+    ports:
+      - 80:80
+    volumes:
+      - ./sample-application:/var/www/html
+      - ./config/php.ini:/usr/local/etc/php/php.ini
+      - ./config/vhosts:/etc/apache2/sites-enabled
+      - ./logs/apache2:/var/log/apache2
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    networks:
+      - kununu
+    restart: always
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+      - ./logs/mysql:/var/log/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    links:
+      - mysql
+    volumes:
+      - /sessions
+
+  apache:
+    image: httpd:latest
+    volumes:
+      - ./sample-application:/usr/local/apache2/htdocs
+    depends_on:
+      - web
+      - mysql
+
+  jenkins_kununu:
+    image: jenkins/jenkins:lts
+    networks:
+      - kununu
+    privileged: true
+    user: root
+    volumes:
+      - /usr/bin/docker:/usr/bin/docker
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./jenkins_home:/var/jenkins_home
+    ports:
+      - 8080:8080
+      - 50000:50000
+      - 8000:8000
+
+  sonar:
+    image: sonarqube
+    networks:
+      - kununu
+    expose:
+      - 9000
+    ports:
+      - 9000:9000
+    volumes:
+      - sonarqube_conf:/opt/sonarqube/conf
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+volumes:
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_bundled-plugins:
+
+
