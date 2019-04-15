@@ -32,5 +32,5 @@ RUN composer require --dev jakub-onderka/php-parallel-lint
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
 CMD ["php", "bin/console", "server:run", "*:8000" ]
-//ENV DEBIAN_FRONTEND teletype
+ENV DEBIAN_FRONTEND teletype
 
