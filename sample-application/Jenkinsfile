@@ -14,9 +14,9 @@ pipeline {
                 }
             }
         }
-        stage('syntax check', propagate: false) {
+        stage('syntax check') {
             steps {
-                sh 'vendor/bin/parallel-lint --exclude vendor .'
+                sh 'vendor/bin/parallel-lint --exclude vendor .' , propagate: false
                 //sh './vendor/bin/parallel-lint --exclude ./vendor/ .'
                 //sh './bin/parallel-lint --exclude app --exclude vendor .'
 
