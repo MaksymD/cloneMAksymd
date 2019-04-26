@@ -29,6 +29,7 @@ RUN npm -v
 RUN npm install -g newman
 
 RUN composer install
+RUN composer require kununu/controller-validation-bundle:dev-master
 #RUN composer install --ignore-platform-reqs
 #RUN composer require --dev jakub-onderka/php-parallel-lint
 
