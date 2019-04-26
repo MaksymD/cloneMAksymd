@@ -14,9 +14,10 @@ pipeline {
                 }
             }
         }
+        try {
         stage('syntax check') {
             steps {
-                sh 'vendor/bin/parallel-lint --exclude vendor .' , propagate: false
+                sh 'vendor/bin/parallel-lint --exclude vendor .'
                 //sh './vendor/bin/parallel-lint --exclude ./vendor/ .'
                 //sh './bin/parallel-lint --exclude app --exclude vendor .'
 
@@ -24,6 +25,9 @@ pipeline {
                 }
             }
         }
+        catch (Exception e) {
+             echo "Errors exist in this Stage"
+          }
         stage('checkstyle') {
             steps {
                 dir('sample-application') {
