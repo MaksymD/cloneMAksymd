@@ -5,6 +5,7 @@ pipeline {
             }
         }
     stages {
+        try {
         stage('pre-define') {
             steps {
                 dir('sample-application') {
@@ -14,6 +15,10 @@ pipeline {
                 }
             }
         }
+        }
+                catch (Exception e) {
+                     echo "Errors exist in this Stage"
+                  }
         try {
         stage('syntax check') {
             steps {
