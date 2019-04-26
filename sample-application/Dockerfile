@@ -27,7 +27,7 @@ RUN apt-get -y install npm
 RUN npm -v
 RUN npm install -g newman
 
-RUN composer install
+#RUN composer install
 RUN composer require --dev jakub-onderka/php-parallel-lint
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
