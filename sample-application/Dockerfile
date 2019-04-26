@@ -32,7 +32,7 @@ RUN npm install -g newman
 RUN composer require kununu/controller-validation-bundle:dev-master
 RUN composer install
 #RUN composer install --ignore-platform-reqs
-#RUN composer require --dev jakub-onderka/php-parallel-lint
+RUN composer require --dev jakub-onderka/php-parallel-lint
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
 CMD ["php", "bin/console", "server:run", "*:8000" ]
