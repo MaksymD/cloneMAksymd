@@ -20,18 +20,19 @@ COPY ./sample-application/ /var/www/html
 
 WORKDIR /var/www/html
 
-RUN curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release'| bash
+RUN curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash
+RUN apt-get update
 RUN apt-get -y install nodejs
 RUN node -v
 RUN apt-get -y install npm
 RUN npm -v
 RUN npm install -g newman
 
-#RUN composer install
-RUN composer install --ignore-platform-reqs
+RUN composer install
+#RUN composer install --ignore-platform-reqs
 #RUN composer require --dev jakub-onderka/php-parallel-lint
 
 # Nope, that is not the best way, but for simplicity ¯\_(ツ)_/¯
 CMD ["php", "bin/console", "server:run", "*:8000" ]
-ENV DEBIAN_FRONTEND teletype
+#ENV DEBIAN_FRONTEND teletype
 

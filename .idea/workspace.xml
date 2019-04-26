@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b9ee21c-457c-4905-9c0b-99c8a07dff95" name="Default Changelist" comment="last">
+    <list default="true" id="1b9ee21c-457c-4905-9c0b-99c8a07dff95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/auto.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/copy_reference_file.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/Download metadata.log.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/logs/tasks/telemetry collection.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/logs/tasks/telemetry collection.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/queue.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/queue.xml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.gradle.GradleInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.gradle.GradleInstaller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.sonar.SonarRunnerInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.plugins.sonar.SonarRunnerInstaller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.tasks.Ant.AntInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.tasks.Ant.AntInstaller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.tasks.Maven.MavenInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.tasks.Maven.MavenInstaller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_home/updates/hudson.tools.JDKInstaller" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_home/updates/hudson.tools.JDKInstaller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-application/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/sample-application/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="291">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -53,17 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample-application/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample-application/composer.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1118" column="21" selection-start-line="1118" selection-start-column="21" selection-end-line="1118" selection-end-column="21" />
+            <state relative-caret-position="465">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,17 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample-application/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkins_home/workspace/Sample_Pipeline_master/sample-application/vendor/monolog/monolog/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -109,17 +74,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample-application/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/sample-application/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/sample-application/Dockerfile" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="273" />
-    <option name="width" value="1843" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555291572657</updated>
       <workItem from="1555291573863" duration="9434000" />
-      <workItem from="1556302458002" duration="961000" />
+      <workItem from="1556302458002" duration="4361000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1555295416233</created>
@@ -227,11 +191,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555327641495</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="composer">
+      <created>1556303500851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556303500851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#10;sad">
+      <created>1556304040544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556304040544</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10395000" />
+    <option name="totallyTimeSpent" value="13795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,10 +221,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="984" extended-state="6" />
+    <frame x="0" y="25" width="960" height="984" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.202407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,8 +237,8 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32982457" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49839914" visible="true" weight="0.2654971" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50160086" side_tool="true" visible="true" weight="0.2654971" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49781182" visible="true" weight="0.2654971" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021882" side_tool="true" visible="true" weight="0.2654971" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -278,16 +256,18 @@
     <MESSAGE value="2" />
     <MESSAGE value="32" />
     <MESSAGE value="last" />
-    <option name="LAST_COMMIT_MESSAGE" value="last" />
+    <MESSAGE value="composer" />
+    <MESSAGE value="&#10;sad" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;sad" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.local-tests.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/sample-application/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="1118" column="21" selection-start-line="1118" selection-start-column="21" selection-end-line="1118" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -298,6 +278,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -305,24 +292,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-application/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1118" column="21" selection-start-line="1118" selection-start-column="21" selection-end-line="1118" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample-application/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample-application/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="58" />
+        <state relative-caret-position="465">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
