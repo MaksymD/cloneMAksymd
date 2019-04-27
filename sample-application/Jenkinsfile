@@ -14,7 +14,6 @@ pipeline {
                 }
             }
         }
-        try {
         stage('syntax check') {
             steps {
                 sh 'vendor/bin/parallel-lint --exclude vendor .'
