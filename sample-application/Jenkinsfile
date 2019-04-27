@@ -5,7 +5,6 @@ pipeline {
             }
         }
     stages {
-        try {
         stage('pre-define') {
             steps {
                 dir('sample-application') {
@@ -15,25 +14,27 @@ pipeline {
                 }
             }
         }
-        }
-                catch (Exception e) {
-                     echo "Errors exist in this Stage"
-                  }
         try {
         stage('syntax check') {
             steps {
                 sh 'vendor/bin/parallel-lint --exclude vendor .'
                 //sh './vendor/bin/parallel-lint --exclude ./vendor/ .'
                 //sh './bin/parallel-lint --exclude app --exclude vendor .'
+                script {
+                try {
+                                        echo 'Running tests...'
+                                        sh 'exit 1'
+                }
+                catch (exc) {
+                                        echo 'Testing failed!'
+                                        currentBuild.result = 'UNSTABLE'
+                                    }
+                }
 
                 timeout(time: 20, unit: 'MINUTES'){
                 }
             }
         }
-        }
-        catch (Exception e) {
-             echo "Errors exist in this Stage"
-          }
         stage('checkstyle') {
             steps {
                 dir('sample-application') {
