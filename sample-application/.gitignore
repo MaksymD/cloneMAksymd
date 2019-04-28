@@ -3,6 +3,7 @@ jenkins_home/
 logs/
 data/
 config/
+idea/
 .idea/
 .DS_Store
 .terraform/
