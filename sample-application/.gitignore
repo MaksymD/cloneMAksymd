@@ -1,8 +1,15 @@
 vendor/
+jenkins_home/
+logs/
+data/
+config/
 .idea/
 .DS_Store
 .terraform/
 .terraform.tfstate*
-.jenkins_home
 deploy.prop
 config/parameters.yml
+
+
+# ignore all logs
+*.log
