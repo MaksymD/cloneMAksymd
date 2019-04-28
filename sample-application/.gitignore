@@ -1,5 +1,6 @@
 vendor/
 jenkins_home/
+sample-application/vendor/
 logs/
 data/
 config/
