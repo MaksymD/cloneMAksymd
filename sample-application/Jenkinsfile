@@ -16,23 +16,19 @@ pipeline {
         }
         stage('syntax check') {
             steps {
+            script {
+              try {
                 sh 'vendor/bin/parallel-lint --exclude vendor .'
                 //sh './vendor/bin/parallel-lint --exclude ./vendor/ .'
                 //sh './bin/parallel-lint --exclude app --exclude vendor .'
-                script {
-                try {
-                                        echo 'Running tests...'
-                                        sh 'exit 1'
-                }
-                catch (exc) {
-                                        echo 'Testing failed!'
-                                        currentBuild.result = 'UNSTABLE'
-                                    }
-                }
+                } catch (Exception e) {
+                      sh 'Handle the exception!'
+                  }
 
                 timeout(time: 20, unit: 'MINUTES'){
                 }
             }
+        }
         }
         stage('checkstyle') {
             steps {
@@ -77,7 +73,7 @@ pipeline {
                 }
             }
         }
-        post {
+        /*post {
             success {
                 echo 'Send mail on success'
                 emailext (
@@ -95,4 +91,7 @@ pipeline {
                     recipientProviders: [[$class: 'DevelopersRecipientProvider']] )
                 }
             }
+            postBuild {
+
+            }*/
 }
