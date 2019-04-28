@@ -3,5 +3,6 @@ vendor/
 .DS_Store
 .terraform/
 .terraform.tfstate*
+.jenkins_home
 deploy.prop
 config/parameters.yml
