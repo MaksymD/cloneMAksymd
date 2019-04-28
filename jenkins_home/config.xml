@@ -2,6 +2,7 @@
 <hudson>
   <disabledAdministrativeMonitors>
     <string>jenkins.diagnostics.SecurityIsOffMonitor</string>
+    <string>OldData</string>
   </disabledAdministrativeMonitors>
   <version>2.164.2</version>
   <installStateName>RUNNING</installStateName>

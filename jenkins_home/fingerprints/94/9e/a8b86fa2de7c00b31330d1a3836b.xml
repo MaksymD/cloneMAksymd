@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-15 01:52:12.810 UTC</timestamp>
+  <original>
+    <name>Sample_Pipeline/master</name>
+    <number>1</number>
+  </original>
+  <md5sum>949ea8b86fa2de7c00b31330d1a3836b</md5sum>
+  <fileName>Docker image sha256:949ea8b86fa2de7c00b31330d1a3836bee4e7c140b7557be241ca4cd5afee229</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1555293132785</timestamp>
+      <imageId>sha256:949ea8b86fa2de7c00b31330d1a3836bee4e7c140b7557be241ca4cd5afee229</imageId>
+      <usages>
+        <entry>
+          <string>Sample_Pipeline/master</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:94e814e2efa8845d95b2112d54497fbad173e45121ce9255b93401392f538499</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1555293135431</timestamp>
+      <imageId>sha256:949ea8b86fa2de7c00b31330d1a3836bee4e7c140b7557be241ca4cd5afee229</imageId>
+      <usages>
+        <entry>
+          <string>Sample_Pipeline/master</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>69c45f8c575a</host>
+          <containerId>69c45f8c575a9b62586fc9c7f764d753fd408d7ef25e3ee27ce4c0f6ee965a6e</containerId>
+          <containerName>/gifted_davinci</containerName>
+          <created>1555293134000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

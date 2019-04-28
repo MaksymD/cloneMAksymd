@@ -1,0 +1,11 @@
+commit a88c1e559dcd5a29d769b7da290733af710db24f
+tree bb278da4dfe8c9bf51fe14e5c01798b149ca3b07
+parent dd9344e9bc5b61d91ef771da7f6776bb598e8f95
+author maksymd <maksym.dotsenko@gmail.com> 2019-04-26 22:25:36 +0200
+committer maksymd <maksym.dotsenko@gmail.com> 2019-04-26 22:25:36 +0200
+
+    13
+
+
+
+:100755 100755 78d0127a7f610430c2029208b5259e919fdf5008 ec10d2d9cc0ca29a369eb7517660b878edf68f54 M	sample-application/Dockerfile

@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-15 02:40:32.633 UTC</timestamp>
+  <original>
+    <name>Sample_Pipeline/master</name>
+    <number>4</number>
+  </original>
+  <md5sum>20b915b9b8d1f900535270b8de090724</md5sum>
+  <fileName>Docker image sha256:20b915b9b8d1f900535270b8de090724076c70f84951b1bf82350257dd2acc88</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1555296032622</timestamp>
+      <imageId>sha256:20b915b9b8d1f900535270b8de090724076c70f84951b1bf82350257dd2acc88</imageId>
+      <usages>
+        <entry>
+          <string>Sample_Pipeline/master</string>
+          <ranges>4</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:94e814e2efa8845d95b2112d54497fbad173e45121ce9255b93401392f538499</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1555296034258</timestamp>
+      <imageId>sha256:20b915b9b8d1f900535270b8de090724076c70f84951b1bf82350257dd2acc88</imageId>
+      <usages>
+        <entry>
+          <string>Sample_Pipeline/master</string>
+          <ranges>4</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>6a7a45a8e444</host>
+          <containerId>6a7a45a8e444ccdec40fe0cd24fb3912e6db8576a7b106ac64f121a794a2909b</containerId>
+          <containerName>/vigilant_keldysh</containerName>
+          <created>1555296033000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

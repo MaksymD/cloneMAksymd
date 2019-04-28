@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-15 01:46:03.908 UTC</timestamp>
+  <md5sum>0af2eabf2c5700b3c8a86d45e47923e1</md5sum>
+  <fileName>Credential id=37524644-2c11-4e16-b367-52c1f10329c9 name=maksym.dotsenko@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>Sample_Pipeline/master</string>
+      <ranges>1-22,33-37</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

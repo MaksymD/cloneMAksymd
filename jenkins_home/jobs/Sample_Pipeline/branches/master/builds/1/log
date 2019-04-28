@@ -1,0 +1,1503 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/MaksymD/cloneMAksymd.git
+ > git config remote.origin.url https://github.com/MaksymD/cloneMAksymd.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+Obtained sample-application/Jenkinsfile from 2260139b3b16d1bde659b5001ed9ab00b8bd22ce
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4MuFcM69RTE6eyLErTxo2aZN6cZFF5fOmlzcc45DKIJ/AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L7e3Ori6gAFpUY5AOB2GFzsqW8WCmn6Ho79IZKgt9zuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MAXhnk75x3+r7A8P+ZS91YjHyFGB7ifRVwHOBlYi0PpAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/Sample_Pipeline_master
+[8mha:////4FHryl+cL8wjneTUhdPR9ngp/BgpdEjVvZ4XdZiUvMZIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FK/5aYaYM1cLskBSdeNVKV4ewKLZUv396KUw/DVnwOBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Of9bYFzXeOh83toeR1JOU4yj/s5CaGqjbUNNpkhqpMZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4I5Hr6v1ZJKZ/IAifmDR/eu8G0uoLVssXdDwKxh9o36jAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential 37524644-2c11-4e16-b367-52c1f10329c9
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/MaksymD/cloneMAksymd.git
+ > git init /var/jenkins_home/workspace/Sample_Pipeline_master # timeout=10
+Fetching upstream changes from https://github.com/MaksymD/cloneMAksymd.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/MaksymD/cloneMAksymd.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/MaksymD/cloneMAksymd.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MaksymD/cloneMAksymd.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/MaksymD/cloneMAksymd.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/MaksymD/cloneMAksymd.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 2260139b3b16d1bde659b5001ed9ab00b8bd22ce (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2260139b3b16d1bde659b5001ed9ab00b8bd22ce
+Commit message: "Add existing file"
+First time build. Skipping changelog.
+[8mha:////4DEcXN688J/hcejPiDS+y1BouF4SBcKgC79e/ZEZjS7jAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4A0M1tvwYOrefS25iqjFbEf0w9MNHX+xnfpV+ben5panAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4IeXuX1d20rjfh3gzYiIOFwiK5O98azvIAyqrsnYALHgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4O0PAuhpp1GupVeB8+gDfqI36DK4nghwJCxh+m5wing0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4GZCi7KzbBqEVCHLCE57hp5gSNh7Y2rSUkCLQIEVVWYyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4O2+V8t8DOpSArA83krU58Zc5E4662TzJb+/beJ3MYr+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4Fx1czGZleepLSZ0FRhKhEYJs3aam2olz/9Ej6LN720oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] isUnix
+[8mha:////4BNuKJxycZoXmng0dpg7ZqDbg73N0R3xn3PDzYL/wFteAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] readFile
+[8mha:////4KRttgaXbR/CPDRQlGcv5+pDdA49IgPo1qVahKDH2DkmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
++ docker build -t 9d8b3d6a3b2af81f1db603c2178ddb4886c1aa08 -f sample-application/Dockerfile .
+Sending build context to Docker daemon  508.8MB
+Step 1/13 : FROM ubuntu:18.04
+ ---> 94e814e2efa8
+Step 2/13 : ENV DEBIAN_FRONTEND=noninteractive
+ ---> Using cache
+ ---> cada0d8cefce
+Step 3/13 : RUN apt-get update >/dev/null &&         apt-get install apt-utils --no-install-recommends -y           php composer git vim           libapache2-mod-php7.2             php7.2-cli             php7.2-curl             php7.2-json             php7.2-mbstring             php7.2-mysql             php7.2-xdebug             php7.2-xml             php7.2-zip             php7.2-intl         >/dev/null
+ ---> Using cache
+ ---> 395b4350bcd9
+Step 4/13 : COPY ./sample-application/ /var/www/html
+ ---> 027fe754ab4b
+Step 5/13 : WORKDIR /var/www/html
+ ---> Running in e23c9752f7e1
+Removing intermediate container e23c9752f7e1
+ ---> d1c31913288d
+Step 6/13 : RUN curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release'| bash
+ ---> Running in 5ab70ae1e8a2
+[91m/bin/sh: 1: curl: not found
+[0mRemoving intermediate container 5ab70ae1e8a2
+ ---> 8ba1d1b16b1c
+Step 7/13 : RUN apt-get -y install nodejs
+ ---> Running in 28989cbe6272
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libc-ares2 libhttp-parser2.7.1 libssl1.0.0 libuv1 nodejs-doc
+The following NEW packages will be installed:
+  libc-ares2 libhttp-parser2.7.1 libssl1.0.0 libuv1 nodejs nodejs-doc
+0 upgraded, 6 newly installed, 0 to remove and 4 not upgraded.
+Need to get 6758 kB of archives.
+After this operation, 28.3 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl1.0.0 amd64 1.0.2n-1ubuntu5.3 [1088 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libuv1 amd64 1.18.0-3 [64.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 nodejs-doc all 8.10.0~dfsg-2ubuntu0.4 [752 kB]
+Get:4 http://archive.ubuntu.com/ubuntu bionic/main amd64 libc-ares2 amd64 1.14.0-1 [37.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu bionic/main amd64 libhttp-parser2.7.1 amd64 2.7.1-2 [20.6 kB]
+Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 nodejs amd64 8.10.0~dfsg-2ubuntu0.4 [4796 kB]
+Preconfiguring packages ...
+Fetched 6758 kB in 6s (1132 kB/s)
+Selecting previously unselected package libssl1.0.0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12988 files and directories currently installed.)
+Preparing to unpack .../0-libssl1.0.0_1.0.2n-1ubuntu5.3_amd64.deb ...
+Unpacking libssl1.0.0:amd64 (1.0.2n-1ubuntu5.3) ...
+Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../1-libuv1_1.18.0-3_amd64.deb ...
+Unpacking libuv1:amd64 (1.18.0-3) ...
+Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../2-nodejs-doc_8.10.0~dfsg-2ubuntu0.4_all.deb ...
+Unpacking nodejs-doc (8.10.0~dfsg-2ubuntu0.4) ...
+Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../3-libc-ares2_1.14.0-1_amd64.deb ...
+Unpacking libc-ares2:amd64 (1.14.0-1) ...
+Selecting previously unselected package libhttp-parser2.7.1:amd64.
+Preparing to unpack .../4-libhttp-parser2.7.1_2.7.1-2_amd64.deb ...
+Unpacking libhttp-parser2.7.1:amd64 (2.7.1-2) ...
+Selecting previously unselected package nodejs.
+Preparing to unpack .../5-nodejs_8.10.0~dfsg-2ubuntu0.4_amd64.deb ...
+Unpacking nodejs (8.10.0~dfsg-2ubuntu0.4) ...
+Setting up nodejs-doc (8.10.0~dfsg-2ubuntu0.4) ...
+Setting up libhttp-parser2.7.1:amd64 (2.7.1-2) ...
+Setting up libssl1.0.0:amd64 (1.0.2n-1ubuntu5.3) ...
+Setting up libuv1:amd64 (1.18.0-3) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libc-ares2:amd64 (1.14.0-1) ...
+Setting up nodejs (8.10.0~dfsg-2ubuntu0.4) ...
+update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Removing intermediate container 28989cbe6272
+ ---> 019abdb10b3f
+Step 8/13 : RUN node -v
+ ---> Running in 54aead884294
+v8.10.0
+Removing intermediate container 54aead884294
+ ---> ce0f63f09a24
+Step 9/13 : RUN apt-get -y install npm
+ ---> Running in 1ff68939cffa
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-7
+  dirmngr dpkg-dev fakeroot g++ g++-7 gcc gcc-7 gcc-7-base gnupg gnupg-l10n
+  gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gyp
+  javascript-common libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libasan4 libassuan0 libatomic1 libbinutils
+  libc-dev-bin libc6-dev libcc1-0 libcilkrts5 libdpkg-perl libfakeroot
+  libfile-fcntllock-perl libgcc-7-dev libgomp1 libisl19 libitm1 libjs-async
+  libjs-inherits libjs-jquery libjs-node-uuid libjs-underscore libksba8
+  liblocale-gettext-perl liblsan0 libmpc3 libmpfr6 libmpx2 libnpth0
+  libpython-stdlib libpython2.7-minimal libpython2.7-stdlib libquadmath0
+  libssl1.0-dev libstdc++-7-dev libtsan0 libubsan0 libuv1-dev linux-libc-dev
+  make manpages manpages-dev node-abbrev node-ansi node-ansi-color-table
+  node-archy node-async node-balanced-match node-block-stream
+  node-brace-expansion node-builtin-modules node-combined-stream
+  node-concat-map node-cookie-jar node-delayed-stream node-forever-agent
+  node-form-data node-fs.realpath node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp
+  node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile
+  node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream
+  node-node-uuid node-nopt node-normalize-package-data node-npmlog node-once
+  node-osenv node-path-is-absolute node-pseudomap node-qs node-read
+  node-read-package-json node-request node-retry node-rimraf node-semver
+  node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore
+  node-validate-npm-package-license node-which node-wrappy node-yallist
+  nodejs-dev patch pinentry-curses python python-minimal python-pkg-resources
+  python2.7 python2.7-minimal xz-utils
+Suggested packages:
+  binutils-doc cpp-doc gcc-7-locales dbus-user-session libpam-systemd
+  pinentry-gnome3 tor debian-keyring g++-multilib g++-7-multilib gcc-7-doc
+  libstdc++6-7-dbg gcc-multilib autoconf automake libtool flex bison gdb
+  gcc-doc gcc-7-multilib libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg
+  libasan4-dbg liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg
+  libmpx2-dbg libquadmath0-dbg parcimonie xloadimage scdaemon apache2
+  | lighttpd | httpd glibc-doc bzr libstdc++-7-doc make-doc man-browser
+  node-hawk node-aws-sign node-oauth-sign node-http-signature debhelper ed
+  diffutils-doc pinentry-doc python-doc python-tk python-setuptools
+  python2.7-doc binfmt-support
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-7
+  dirmngr dpkg-dev fakeroot g++ g++-7 gcc gcc-7 gcc-7-base gnupg gnupg-l10n
+  gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gyp
+  javascript-common libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libasan4 libassuan0 libatomic1 libbinutils
+  libc-dev-bin libc6-dev libcc1-0 libcilkrts5 libdpkg-perl libfakeroot
+  libfile-fcntllock-perl libgcc-7-dev libgomp1 libisl19 libitm1 libjs-async
+  libjs-inherits libjs-jquery libjs-node-uuid libjs-underscore libksba8
+  liblocale-gettext-perl liblsan0 libmpc3 libmpfr6 libmpx2 libnpth0
+  libpython-stdlib libpython2.7-minimal libpython2.7-stdlib libquadmath0
+  libssl1.0-dev libstdc++-7-dev libtsan0 libubsan0 libuv1-dev linux-libc-dev
+  make manpages manpages-dev node-abbrev node-ansi node-ansi-color-table
+  node-archy node-async node-balanced-match node-block-stream
+  node-brace-expansion node-builtin-modules node-combined-stream
+  node-concat-map node-cookie-jar node-delayed-stream node-forever-agent
+  node-form-data node-fs.realpath node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp
+  node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile
+  node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream
+  node-node-uuid node-nopt node-normalize-package-data node-npmlog node-once
+  node-osenv node-path-is-absolute node-pseudomap node-qs node-read
+  node-read-package-json node-request node-retry node-rimraf node-semver
+  node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore
+  node-validate-npm-package-license node-which node-wrappy node-yallist
+  nodejs-dev npm patch pinentry-curses python python-minimal
+  python-pkg-resources python2.7 python2.7-minimal xz-utils
+0 upgraded, 140 newly installed, 0 to remove and 4 not upgraded.
+Need to get 49.3 MB of archives.
+After this operation, 212 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 liblocale-gettext-perl amd64 1.07-3build2 [16.6 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.15~rc1-1ubuntu0.1 [334 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.15~rc1-1ubuntu0.1 [1304 kB]
+Get:4 http://archive.ubuntu.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.15~rc1-1ubuntu0.1 [1912 kB]
+Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.15~rc1-1ubuntu0.1 [238 kB]
+Get:7 http://archive.ubuntu.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7620 B]
+Get:8 http://archive.ubuntu.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]
+Get:9 http://archive.ubuntu.com/ubuntu bionic/main amd64 xz-utils amd64 5.2.2-1.3 [83.8 kB]
+Get:10 http://archive.ubuntu.com/ubuntu bionic/main amd64 manpages all 4.15-1 [1234 kB]
+Get:11 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils-common amd64 2.30-21ubuntu1~18.04 [193 kB]
+Get:12 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libbinutils amd64 2.30-21ubuntu1~18.04 [502 kB]
+Get:13 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.30-21ubuntu1~18.04 [1855 kB]
+Get:14 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils amd64 2.30-21ubuntu1~18.04 [3392 B]
+Get:15 http://archive.ubuntu.com/ubuntu bionic/main amd64 libc-dev-bin amd64 2.27-3ubuntu1 [71.8 kB]
+Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-libc-dev amd64 4.15.0-47.50 [1008 kB]
+Get:17 http://archive.ubuntu.com/ubuntu bionic/main amd64 libc6-dev amd64 2.27-3ubuntu1 [2587 kB]
+Get:18 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7-base amd64 7.3.0-27ubuntu1~18.04 [18.9 kB]
+Get:19 http://archive.ubuntu.com/ubuntu bionic/main amd64 libisl19 amd64 0.19-1 [551 kB]
+Get:20 http://archive.ubuntu.com/ubuntu bionic/main amd64 libmpfr6 amd64 4.0.1-1 [243 kB]
+Get:21 http://archive.ubuntu.com/ubuntu bionic/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 cpp-7 amd64 7.3.0-27ubuntu1~18.04 [6738 kB]
+Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 cpp amd64 4:7.3.0-3ubuntu2.1 [27.6 kB]
+Get:24 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcc1-0 amd64 8.2.0-1ubuntu2~18.04 [39.5 kB]
+Get:25 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgomp1 amd64 8.2.0-1ubuntu2~18.04 [76.4 kB]
+Get:26 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libitm1 amd64 8.2.0-1ubuntu2~18.04 [28.1 kB]
+Get:27 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libatomic1 amd64 8.2.0-1ubuntu2~18.04 [9064 B]
+Get:28 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libasan4 amd64 7.3.0-27ubuntu1~18.04 [358 kB]
+Get:29 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblsan0 amd64 8.2.0-1ubuntu2~18.04 [132 kB]
+Get:30 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libtsan0 amd64 8.2.0-1ubuntu2~18.04 [288 kB]
+Get:31 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libubsan0 amd64 7.3.0-27ubuntu1~18.04 [126 kB]
+Get:32 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcilkrts5 amd64 7.3.0-27ubuntu1~18.04 [42.5 kB]
+Get:33 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libmpx2 amd64 8.2.0-1ubuntu2~18.04 [11.7 kB]
+Get:34 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libquadmath0 amd64 8.2.0-1ubuntu2~18.04 [133 kB]
+Get:35 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcc-7-dev amd64 7.3.0-27ubuntu1~18.04 [2380 kB]
+Get:36 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7 amd64 7.3.0-27ubuntu1~18.04 [7455 kB]
+Get:37 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc amd64 4:7.3.0-3ubuntu2.1 [5184 B]
+Get:38 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libstdc++-7-dev amd64 7.3.0-27ubuntu1~18.04 [1463 kB]
+Get:39 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 g++-7 amd64 7.3.0-27ubuntu1~18.04 [7570 kB]
+Get:40 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 g++ amd64 4:7.3.0-3ubuntu2.1 [1572 B]
+Get:41 http://archive.ubuntu.com/ubuntu bionic/main amd64 make amd64 4.1-9.1ubuntu1 [154 kB]
+Get:42 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libdpkg-perl all 1.19.0.5ubuntu2.1 [211 kB]
+Get:43 http://archive.ubuntu.com/ubuntu bionic/main amd64 patch amd64 2.7.6-2ubuntu1 [102 kB]
+Get:44 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 dpkg-dev all 1.19.0.5ubuntu2.1 [608 kB]
+Get:45 http://archive.ubuntu.com/ubuntu bionic/main amd64 build-essential amd64 12.4ubuntu1 [4758 B]
+Get:46 http://archive.ubuntu.com/ubuntu bionic/main amd64 libassuan0 amd64 2.5.1-2 [35.0 kB]
+Get:47 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpgconf amd64 2.2.4-1ubuntu1.2 [123 kB]
+Get:48 http://archive.ubuntu.com/ubuntu bionic/main amd64 libksba8 amd64 1.3.5-2 [92.6 kB]
+Get:49 http://archive.ubuntu.com/ubuntu bionic/main amd64 libnpth0 amd64 1.5-3 [7668 B]
+Get:50 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 dirmngr amd64 2.2.4-1ubuntu1.2 [316 kB]
+Get:51 http://archive.ubuntu.com/ubuntu bionic/main amd64 libfakeroot amd64 1.22-2ubuntu1 [25.9 kB]
+Get:52 http://archive.ubuntu.com/ubuntu bionic/main amd64 fakeroot amd64 1.22-2ubuntu1 [62.3 kB]
+Get:53 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg-l10n all 2.2.4-1ubuntu1.2 [49.6 kB]
+Get:54 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg-utils amd64 2.2.4-1ubuntu1.2 [127 kB]
+Get:55 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg amd64 2.2.4-1ubuntu1.2 [467 kB]
+Get:56 http://archive.ubuntu.com/ubuntu bionic/main amd64 pinentry-curses amd64 1.1.0-1 [35.8 kB]
+Get:57 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-agent amd64 2.2.4-1ubuntu1.2 [227 kB]
+Get:58 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-wks-client amd64 2.2.4-1ubuntu1.2 [91.9 kB]
+Get:59 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-wks-server amd64 2.2.4-1ubuntu1.2 [84.9 kB]
+Get:60 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpgsm amd64 2.2.4-1ubuntu1.2 [215 kB]
+Get:61 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg amd64 2.2.4-1ubuntu1.2 [249 kB]
+Get:62 http://archive.ubuntu.com/ubuntu bionic/main amd64 python-pkg-resources all 39.0.1-2 [128 kB]
+Get:63 http://archive.ubuntu.com/ubuntu bionic/universe amd64 gyp all 0.1+20150913git1f374df9-1ubuntu1 [265 kB]
+Get:64 http://archive.ubuntu.com/ubuntu bionic/main amd64 javascript-common all 11 [6066 B]
+Get:65 http://archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-diff-perl all 1.19.03-1 [47.6 kB]
+Get:66 http://archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-diff-xs-perl amd64 0.04-5 [11.1 kB]
+Get:67 http://archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:68 http://archive.ubuntu.com/ubuntu bionic/main amd64 libfile-fcntllock-perl amd64 0.22-3build2 [33.2 kB]
+Get:69 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libjs-async all 0.8.0-3 [25.4 kB]
+Get:70 http://archive.ubuntu.com/ubuntu bionic/main amd64 libjs-jquery all 3.2.1-1 [152 kB]
+Get:71 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libjs-node-uuid all 1.4.7-5 [11.5 kB]
+Get:72 http://archive.ubuntu.com/ubuntu bionic/main amd64 libjs-underscore all 1.8.3~dfsg-1 [59.9 kB]
+Get:73 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl1.0-dev amd64 1.0.2n-1ubuntu5.3 [1365 kB]
+Get:74 http://archive.ubuntu.com/ubuntu bionic/main amd64 libuv1-dev amd64 1.18.0-3 [82.0 kB]
+Get:75 http://archive.ubuntu.com/ubuntu bionic/main amd64 manpages-dev all 4.15-1 [2217 kB]
+Get:76 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-async all 0.8.0-3 [2840 B]
+Get:77 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-builtin-modules all 1.1.1-1 [3338 B]
+Get:78 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-fs.realpath all 1.0.0-1 [5572 B]
+Get:79 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-hosted-git-info all 2.5.0-1 [6756 B]
+Get:80 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-wrappy all 1.0.2-1 [3162 B]
+Get:81 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-once all 1.4.0-2ubuntu1 [3588 B]
+Get:82 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-inflight all 1.0.6-1 [3382 B]
+Get:83 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-is-builtin-module all 1.0.0-1 [2906 B]
+Get:84 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-isexe all 2.0.0-3 [4376 B]
+Get:85 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-node-uuid all 1.4.7-5 [2844 B]
+Get:86 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-path-is-absolute all 1.0.0-1 [3310 B]
+Get:87 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-pseudomap all 1.0.2-1 [3534 B]
+Get:88 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-spdx-license-ids all 1.2.2-1 [4792 B]
+Get:89 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-spdx-correct all 1.0.2-1 [3718 B]
+Get:90 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-spdx-expression-parse all 1.0.4-1 [12.1 kB]
+Get:91 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-underscore all 1.8.3~dfsg-1 [3790 B]
+Get:92 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-validate-npm-package-license all 3.0.1-1 [3488 B]
+Get:93 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-yallist all 2.0.0-1 [5398 B]
+Get:94 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libjs-inherits all 2.0.3-1 [2792 B]
+Get:95 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-abbrev all 1.0.9-1 [3708 B]
+Get:96 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-ansi all 0.3.0-2ubuntu1 [8720 B]
+Get:97 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-ansi-color-table all 1.0.0-1 [4478 B]
+Get:98 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-archy all 1.0.0-1ubuntu1 [4264 B]
+Get:99 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-balanced-match all 0.4.2-1 [4030 B]
+Get:100 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-inherits all 2.0.3-1 [3092 B]
+Get:101 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-block-stream all 0.0.9-1ubuntu1 [4736 B]
+Get:102 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-concat-map all 0.0.1-1 [3502 B]
+Get:103 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-brace-expansion all 1.1.8-1 [5840 B]
+Get:104 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-delayed-stream all 0.0.5-1 [4750 B]
+Get:105 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-combined-stream all 0.0.5-1 [4958 B]
+Get:106 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-cookie-jar all 0.3.1-1 [3746 B]
+Get:107 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-forever-agent all 0.5.1-1 [3194 B]
+Get:108 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-mime all 1.3.4-1 [11.9 kB]
+Get:109 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-form-data all 0.1.0-1 [6412 B]
+Get:110 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-minimatch all 3.0.4-3 [13.5 kB]
+Get:111 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-glob all 7.1.2-4 [17.7 kB]
+Get:112 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-rimraf all 2.6.2-1 [8152 B]
+Get:113 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-mkdirp all 0.5.1-1 [4848 B]
+Get:114 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-graceful-fs all 4.1.11-1 [10.8 kB]
+Get:115 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-fstream all 1.0.10-1 [18.1 kB]
+Get:116 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-fstream-ignore all 0.0.6-2 [5586 B]
+Get:117 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-github-url-from-git all 1.4.0-1 [3782 B]
+Get:118 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 nodejs-dev amd64 8.10.0~dfsg-2ubuntu0.4 [351 kB]
+Get:119 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-nopt all 3.0.6-3 [9572 B]
+Get:120 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-npmlog all 0.0.4-1 [5844 B]
+Get:121 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-osenv all 0.1.4-1 [4212 B]
+Get:122 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-tunnel-agent all 0.3.1-1 [4018 B]
+Get:123 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-json-stringify-safe all 5.0.0-1 [3544 B]
+Get:124 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-qs all 2.2.4-1ubuntu1 [7680 B]
+Get:125 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-request all 2.26.1-1 [14.5 kB]
+Get:126 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-semver all 5.4.1-1 [22.6 kB]
+Get:127 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-tar all 2.2.1-1 [17.7 kB]
+Get:128 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-which all 1.3.0-1 [4504 B]
+Get:129 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-gyp all 3.6.2-1ubuntu1 [29.4 kB]
+Get:130 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-ini all 1.3.4-1 [5588 B]
+Get:131 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-lockfile all 0.4.1-1 [5450 B]
+Get:132 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-lru-cache all 4.1.1-1 [8228 B]
+Get:133 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-mute-stream all 0.0.7-1 [4372 B]
+Get:134 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-normalize-package-data all 2.3.5-2 [10.6 kB]
+Get:135 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-read all 1.0.7-1 [4572 B]
+Get:136 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-read-package-json all 1.2.4-1 [7780 B]
+Get:137 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-retry all 0.10.1-1 [8016 B]
+Get:138 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-sha all 1.2.3-1 [4272 B]
+Get:139 http://archive.ubuntu.com/ubuntu bionic/universe amd64 node-slide all 1.1.6-1 [6212 B]
+Get:140 http://archive.ubuntu.com/ubuntu bionic/universe amd64 npm all 3.5.2-0ubuntu4 [1586 kB]
+Fetched 49.3 MB in 34s (1436 kB/s)
+Selecting previously unselected package liblocale-gettext-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 13150 files and directories currently installed.)
+Preparing to unpack .../0-liblocale-gettext-perl_1.07-3build2_amd64.deb ...
+Unpacking liblocale-gettext-perl (1.07-3build2) ...
+Selecting previously unselected package libpython2.7-minimal:amd64.
+Preparing to unpack .../1-libpython2.7-minimal_2.7.15~rc1-1ubuntu0.1_amd64.deb ...
+Unpacking libpython2.7-minimal:amd64 (2.7.15~rc1-1ubuntu0.1) ...
+Selecting previously unselected package python2.7-minimal.
+Preparing to unpack .../2-python2.7-minimal_2.7.15~rc1-1ubuntu0.1_amd64.deb ...
+Unpacking python2.7-minimal (2.7.15~rc1-1ubuntu0.1) ...
+Selecting previously unselected package python-minimal.
+Preparing to unpack .../3-python-minimal_2.7.15~rc1-1_amd64.deb ...
+Unpacking python-minimal (2.7.15~rc1-1) ...
+Selecting previously unselected package libpython2.7-stdlib:amd64.
+Preparing to unpack .../4-libpython2.7-stdlib_2.7.15~rc1-1ubuntu0.1_amd64.deb ...
+Unpacking libpython2.7-stdlib:amd64 (2.7.15~rc1-1ubuntu0.1) ...
+Selecting previously unselected package python2.7.
+Preparing to unpack .../5-python2.7_2.7.15~rc1-1ubuntu0.1_amd64.deb ...
+Unpacking python2.7 (2.7.15~rc1-1ubuntu0.1) ...
+Selecting previously unselected package libpython-stdlib:amd64.
+Preparing to unpack .../6-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...
+Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+Setting up libpython2.7-minimal:amd64 (2.7.15~rc1-1ubuntu0.1) ...
+Setting up python2.7-minimal (2.7.15~rc1-1ubuntu0.1) ...
+Setting up python-minimal (2.7.15~rc1-1) ...
+Selecting previously unselected package python.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 13915 files and directories currently installed.)
+Preparing to unpack .../000-python_2.7.15~rc1-1_amd64.deb ...
+Unpacking python (2.7.15~rc1-1) ...
+Selecting previously unselected package xz-utils.
+Preparing to unpack .../001-xz-utils_5.2.2-1.3_amd64.deb ...
+Unpacking xz-utils (5.2.2-1.3) ...
+Selecting previously unselected package manpages.
+Preparing to unpack .../002-manpages_4.15-1_all.deb ...
+Unpacking manpages (4.15-1) ...
+Selecting previously unselected package binutils-common:amd64.
+Preparing to unpack .../003-binutils-common_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils-common:amd64 (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../004-libbinutils_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking libbinutils:amd64 (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../005-binutils-x86-64-linux-gnu_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../006-binutils_2.30-21ubuntu1~18.04_amd64.deb ...
+Unpacking binutils (2.30-21ubuntu1~18.04) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../007-libc-dev-bin_2.27-3ubuntu1_amd64.deb ...
+Unpacking libc-dev-bin (2.27-3ubuntu1) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../008-linux-libc-dev_4.15.0-47.50_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (4.15.0-47.50) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../009-libc6-dev_2.27-3ubuntu1_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.27-3ubuntu1) ...
+Selecting previously unselected package gcc-7-base:amd64.
+Preparing to unpack .../010-gcc-7-base_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking gcc-7-base:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libisl19:amd64.
+Preparing to unpack .../011-libisl19_0.19-1_amd64.deb ...
+Unpacking libisl19:amd64 (0.19-1) ...
+Selecting previously unselected package libmpfr6:amd64.
+Preparing to unpack .../012-libmpfr6_4.0.1-1_amd64.deb ...
+Unpacking libmpfr6:amd64 (4.0.1-1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../013-libmpc3_1.1.0-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.1.0-1) ...
+Selecting previously unselected package cpp-7.
+Preparing to unpack .../014-cpp-7_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking cpp-7 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../015-cpp_4%3a7.3.0-3ubuntu2.1_amd64.deb ...
+Unpacking cpp (4:7.3.0-3ubuntu2.1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../016-libcc1-0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../017-libgomp1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libgomp1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../018-libitm1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libitm1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../019-libatomic1_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libatomic1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libasan4:amd64.
+Preparing to unpack .../020-libasan4_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libasan4:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../021-liblsan0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking liblsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../022-libtsan0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libtsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libubsan0:amd64.
+Preparing to unpack .../023-libubsan0_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libubsan0:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libcilkrts5:amd64.
+Preparing to unpack .../024-libcilkrts5_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libcilkrts5:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package libmpx2:amd64.
+Preparing to unpack .../025-libmpx2_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libmpx2:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../026-libquadmath0_8.2.0-1ubuntu2~18.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Selecting previously unselected package libgcc-7-dev:amd64.
+Preparing to unpack .../027-libgcc-7-dev_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libgcc-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package gcc-7.
+Preparing to unpack .../028-gcc-7_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking gcc-7 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../029-gcc_4%3a7.3.0-3ubuntu2.1_amd64.deb ...
+Unpacking gcc (4:7.3.0-3ubuntu2.1) ...
+Selecting previously unselected package libstdc++-7-dev:amd64.
+Preparing to unpack .../030-libstdc++-7-dev_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking libstdc++-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package g++-7.
+Preparing to unpack .../031-g++-7_7.3.0-27ubuntu1~18.04_amd64.deb ...
+Unpacking g++-7 (7.3.0-27ubuntu1~18.04) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../032-g++_4%3a7.3.0-3ubuntu2.1_amd64.deb ...
+Unpacking g++ (4:7.3.0-3ubuntu2.1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../033-make_4.1-9.1ubuntu1_amd64.deb ...
+Unpacking make (4.1-9.1ubuntu1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../034-libdpkg-perl_1.19.0.5ubuntu2.1_all.deb ...
+Unpacking libdpkg-perl (1.19.0.5ubuntu2.1) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../035-patch_2.7.6-2ubuntu1_amd64.deb ...
+Unpacking patch (2.7.6-2ubuntu1) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../036-dpkg-dev_1.19.0.5ubuntu2.1_all.deb ...
+Unpacking dpkg-dev (1.19.0.5ubuntu2.1) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../037-build-essential_12.4ubuntu1_amd64.deb ...
+Unpacking build-essential (12.4ubuntu1) ...
+Selecting previously unselected package libassuan0:amd64.
+Preparing to unpack .../038-libassuan0_2.5.1-2_amd64.deb ...
+Unpacking libassuan0:amd64 (2.5.1-2) ...
+Selecting previously unselected package gpgconf.
+Preparing to unpack .../039-gpgconf_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpgconf (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package libksba8:amd64.
+Preparing to unpack .../040-libksba8_1.3.5-2_amd64.deb ...
+Unpacking libksba8:amd64 (1.3.5-2) ...
+Selecting previously unselected package libnpth0:amd64.
+Preparing to unpack .../041-libnpth0_1.5-3_amd64.deb ...
+Unpacking libnpth0:amd64 (1.5-3) ...
+Selecting previously unselected package dirmngr.
+Preparing to unpack .../042-dirmngr_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking dirmngr (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../043-libfakeroot_1.22-2ubuntu1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.22-2ubuntu1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../044-fakeroot_1.22-2ubuntu1_amd64.deb ...
+Unpacking fakeroot (1.22-2ubuntu1) ...
+Selecting previously unselected package gnupg-l10n.
+Preparing to unpack .../045-gnupg-l10n_2.2.4-1ubuntu1.2_all.deb ...
+Unpacking gnupg-l10n (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gnupg-utils.
+Preparing to unpack .../046-gnupg-utils_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gnupg-utils (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gpg.
+Preparing to unpack .../047-gpg_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package pinentry-curses.
+Preparing to unpack .../048-pinentry-curses_1.1.0-1_amd64.deb ...
+Unpacking pinentry-curses (1.1.0-1) ...
+Selecting previously unselected package gpg-agent.
+Preparing to unpack .../049-gpg-agent_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-agent (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gpg-wks-client.
+Preparing to unpack .../050-gpg-wks-client_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-wks-client (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gpg-wks-server.
+Preparing to unpack .../051-gpg-wks-server_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-wks-server (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gpgsm.
+Preparing to unpack .../052-gpgsm_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpgsm (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package gnupg.
+Preparing to unpack .../053-gnupg_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gnupg (2.2.4-1ubuntu1.2) ...
+Selecting previously unselected package python-pkg-resources.
+Preparing to unpack .../054-python-pkg-resources_39.0.1-2_all.deb ...
+Unpacking python-pkg-resources (39.0.1-2) ...
+Selecting previously unselected package gyp.
+Preparing to unpack .../055-gyp_0.1+20150913git1f374df9-1ubuntu1_all.deb ...
+Unpacking gyp (0.1+20150913git1f374df9-1ubuntu1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../056-javascript-common_11_all.deb ...
+Unpacking javascript-common (11) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../057-libalgorithm-diff-perl_1.19.03-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.03-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../058-libalgorithm-diff-xs-perl_0.04-5_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-5) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../059-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../060-libfile-fcntllock-perl_0.22-3build2_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build2) ...
+Selecting previously unselected package libjs-async.
+Preparing to unpack .../061-libjs-async_0.8.0-3_all.deb ...
+Unpacking libjs-async (0.8.0-3) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../062-libjs-jquery_3.2.1-1_all.deb ...
+Unpacking libjs-jquery (3.2.1-1) ...
+Selecting previously unselected package libjs-node-uuid.
+Preparing to unpack .../063-libjs-node-uuid_1.4.7-5_all.deb ...
+Unpacking libjs-node-uuid (1.4.7-5) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../064-libjs-underscore_1.8.3~dfsg-1_all.deb ...
+Unpacking libjs-underscore (1.8.3~dfsg-1) ...
+Selecting previously unselected package libssl1.0-dev:amd64.
+Preparing to unpack .../065-libssl1.0-dev_1.0.2n-1ubuntu5.3_amd64.deb ...
+Unpacking libssl1.0-dev:amd64 (1.0.2n-1ubuntu5.3) ...
+Selecting previously unselected package libuv1-dev:amd64.
+Preparing to unpack .../066-libuv1-dev_1.18.0-3_amd64.deb ...
+Unpacking libuv1-dev:amd64 (1.18.0-3) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../067-manpages-dev_4.15-1_all.deb ...
+Unpacking manpages-dev (4.15-1) ...
+Selecting previously unselected package node-async.
+Preparing to unpack .../068-node-async_0.8.0-3_all.deb ...
+Unpacking node-async (0.8.0-3) ...
+Selecting previously unselected package node-builtin-modules.
+Preparing to unpack .../069-node-builtin-modules_1.1.1-1_all.deb ...
+Unpacking node-builtin-modules (1.1.1-1) ...
+Selecting previously unselected package node-fs.realpath.
+Preparing to unpack .../070-node-fs.realpath_1.0.0-1_all.deb ...
+Unpacking node-fs.realpath (1.0.0-1) ...
+Selecting previously unselected package node-hosted-git-info.
+Preparing to unpack .../071-node-hosted-git-info_2.5.0-1_all.deb ...
+Unpacking node-hosted-git-info (2.5.0-1) ...
+Selecting previously unselected package node-wrappy.
+Preparing to unpack .../072-node-wrappy_1.0.2-1_all.deb ...
+Unpacking node-wrappy (1.0.2-1) ...
+Selecting previously unselected package node-once.
+Preparing to unpack .../073-node-once_1.4.0-2ubuntu1_all.deb ...
+Unpacking node-once (1.4.0-2ubuntu1) ...
+Selecting previously unselected package node-inflight.
+Preparing to unpack .../074-node-inflight_1.0.6-1_all.deb ...
+Unpacking node-inflight (1.0.6-1) ...
+Selecting previously unselected package node-is-builtin-module.
+Preparing to unpack .../075-node-is-builtin-module_1.0.0-1_all.deb ...
+Unpacking node-is-builtin-module (1.0.0-1) ...
+Selecting previously unselected package node-isexe.
+Preparing to unpack .../076-node-isexe_2.0.0-3_all.deb ...
+Unpacking node-isexe (2.0.0-3) ...
+Selecting previously unselected package node-node-uuid.
+Preparing to unpack .../077-node-node-uuid_1.4.7-5_all.deb ...
+Unpacking node-node-uuid (1.4.7-5) ...
+Selecting previously unselected package node-path-is-absolute.
+Preparing to unpack .../078-node-path-is-absolute_1.0.0-1_all.deb ...
+Unpacking node-path-is-absolute (1.0.0-1) ...
+Selecting previously unselected package node-pseudomap.
+Preparing to unpack .../079-node-pseudomap_1.0.2-1_all.deb ...
+Unpacking node-pseudomap (1.0.2-1) ...
+Selecting previously unselected package node-spdx-license-ids.
+Preparing to unpack .../080-node-spdx-license-ids_1.2.2-1_all.deb ...
+Unpacking node-spdx-license-ids (1.2.2-1) ...
+Selecting previously unselected package node-spdx-correct.
+Preparing to unpack .../081-node-spdx-correct_1.0.2-1_all.deb ...
+Unpacking node-spdx-correct (1.0.2-1) ...
+Selecting previously unselected package node-spdx-expression-parse.
+Preparing to unpack .../082-node-spdx-expression-parse_1.0.4-1_all.deb ...
+Unpacking node-spdx-expression-parse (1.0.4-1) ...
+Selecting previously unselected package node-underscore.
+Preparing to unpack .../083-node-underscore_1.8.3~dfsg-1_all.deb ...
+Unpacking node-underscore (1.8.3~dfsg-1) ...
+Selecting previously unselected package node-validate-npm-package-license.
+Preparing to unpack .../084-node-validate-npm-package-license_3.0.1-1_all.deb ...
+Unpacking node-validate-npm-package-license (3.0.1-1) ...
+Selecting previously unselected package node-yallist.
+Preparing to unpack .../085-node-yallist_2.0.0-1_all.deb ...
+Unpacking node-yallist (2.0.0-1) ...
+Selecting previously unselected package libjs-inherits.
+Preparing to unpack .../086-libjs-inherits_2.0.3-1_all.deb ...
+Unpacking libjs-inherits (2.0.3-1) ...
+Selecting previously unselected package node-abbrev.
+Preparing to unpack .../087-node-abbrev_1.0.9-1_all.deb ...
+Unpacking node-abbrev (1.0.9-1) ...
+Selecting previously unselected package node-ansi.
+Preparing to unpack .../088-node-ansi_0.3.0-2ubuntu1_all.deb ...
+Unpacking node-ansi (0.3.0-2ubuntu1) ...
+Selecting previously unselected package node-ansi-color-table.
+Preparing to unpack .../089-node-ansi-color-table_1.0.0-1_all.deb ...
+Unpacking node-ansi-color-table (1.0.0-1) ...
+Selecting previously unselected package node-archy.
+Preparing to unpack .../090-node-archy_1.0.0-1ubuntu1_all.deb ...
+Unpacking node-archy (1.0.0-1ubuntu1) ...
+Selecting previously unselected package node-balanced-match.
+Preparing to unpack .../091-node-balanced-match_0.4.2-1_all.deb ...
+Unpacking node-balanced-match (0.4.2-1) ...
+Selecting previously unselected package node-inherits.
+Preparing to unpack .../092-node-inherits_2.0.3-1_all.deb ...
+Unpacking node-inherits (2.0.3-1) ...
+Selecting previously unselected package node-block-stream.
+Preparing to unpack .../093-node-block-stream_0.0.9-1ubuntu1_all.deb ...
+Unpacking node-block-stream (0.0.9-1ubuntu1) ...
+Selecting previously unselected package node-concat-map.
+Preparing to unpack .../094-node-concat-map_0.0.1-1_all.deb ...
+Unpacking node-concat-map (0.0.1-1) ...
+Selecting previously unselected package node-brace-expansion.
+Preparing to unpack .../095-node-brace-expansion_1.1.8-1_all.deb ...
+Unpacking node-brace-expansion (1.1.8-1) ...
+Selecting previously unselected package node-delayed-stream.
+Preparing to unpack .../096-node-delayed-stream_0.0.5-1_all.deb ...
+Unpacking node-delayed-stream (0.0.5-1) ...
+Selecting previously unselected package node-combined-stream.
+Preparing to unpack .../097-node-combined-stream_0.0.5-1_all.deb ...
+Unpacking node-combined-stream (0.0.5-1) ...
+Selecting previously unselected package node-cookie-jar.
+Preparing to unpack .../098-node-cookie-jar_0.3.1-1_all.deb ...
+Unpacking node-cookie-jar (0.3.1-1) ...
+Selecting previously unselected package node-forever-agent.
+Preparing to unpack .../099-node-forever-agent_0.5.1-1_all.deb ...
+Unpacking node-forever-agent (0.5.1-1) ...
+Selecting previously unselected package node-mime.
+Preparing to unpack .../100-node-mime_1.3.4-1_all.deb ...
+Unpacking node-mime (1.3.4-1) ...
+Selecting previously unselected package node-form-data.
+Preparing to unpack .../101-node-form-data_0.1.0-1_all.deb ...
+Unpacking node-form-data (0.1.0-1) ...
+Selecting previously unselected package node-minimatch.
+Preparing to unpack .../102-node-minimatch_3.0.4-3_all.deb ...
+Unpacking node-minimatch (3.0.4-3) ...
+Selecting previously unselected package node-glob.
+Preparing to unpack .../103-node-glob_7.1.2-4_all.deb ...
+Unpacking node-glob (7.1.2-4) ...
+Selecting previously unselected package node-rimraf.
+Preparing to unpack .../104-node-rimraf_2.6.2-1_all.deb ...
+Unpacking node-rimraf (2.6.2-1) ...
+Selecting previously unselected package node-mkdirp.
+Preparing to unpack .../105-node-mkdirp_0.5.1-1_all.deb ...
+Unpacking node-mkdirp (0.5.1-1) ...
+Selecting previously unselected package node-graceful-fs.
+Preparing to unpack .../106-node-graceful-fs_4.1.11-1_all.deb ...
+Unpacking node-graceful-fs (4.1.11-1) ...
+Selecting previously unselected package node-fstream.
+Preparing to unpack .../107-node-fstream_1.0.10-1_all.deb ...
+Unpacking node-fstream (1.0.10-1) ...
+Selecting previously unselected package node-fstream-ignore.
+Preparing to unpack .../108-node-fstream-ignore_0.0.6-2_all.deb ...
+Unpacking node-fstream-ignore (0.0.6-2) ...
+Selecting previously unselected package node-github-url-from-git.
+Preparing to unpack .../109-node-github-url-from-git_1.4.0-1_all.deb ...
+Unpacking node-github-url-from-git (1.4.0-1) ...
+Selecting previously unselected package nodejs-dev.
+Preparing to unpack .../110-nodejs-dev_8.10.0~dfsg-2ubuntu0.4_amd64.deb ...
+Unpacking nodejs-dev (8.10.0~dfsg-2ubuntu0.4) ...
+Selecting previously unselected package node-nopt.
+Preparing to unpack .../111-node-nopt_3.0.6-3_all.deb ...
+Unpacking node-nopt (3.0.6-3) ...
+Selecting previously unselected package node-npmlog.
+Preparing to unpack .../112-node-npmlog_0.0.4-1_all.deb ...
+Unpacking node-npmlog (0.0.4-1) ...
+Selecting previously unselected package node-osenv.
+Preparing to unpack .../113-node-osenv_0.1.4-1_all.deb ...
+Unpacking node-osenv (0.1.4-1) ...
+Selecting previously unselected package node-tunnel-agent.
+Preparing to unpack .../114-node-tunnel-agent_0.3.1-1_all.deb ...
+Unpacking node-tunnel-agent (0.3.1-1) ...
+Selecting previously unselected package node-json-stringify-safe.
+Preparing to unpack .../115-node-json-stringify-safe_5.0.0-1_all.deb ...
+Unpacking node-json-stringify-safe (5.0.0-1) ...
+Selecting previously unselected package node-qs.
+Preparing to unpack .../116-node-qs_2.2.4-1ubuntu1_all.deb ...
+Unpacking node-qs (2.2.4-1ubuntu1) ...
+Selecting previously unselected package node-request.
+Preparing to unpack .../117-node-request_2.26.1-1_all.deb ...
+Unpacking node-request (2.26.1-1) ...
+Selecting previously unselected package node-semver.
+Preparing to unpack .../118-node-semver_5.4.1-1_all.deb ...
+Unpacking node-semver (5.4.1-1) ...
+Selecting previously unselected package node-tar.
+Preparing to unpack .../119-node-tar_2.2.1-1_all.deb ...
+Unpacking node-tar (2.2.1-1) ...
+Selecting previously unselected package node-which.
+Preparing to unpack .../120-node-which_1.3.0-1_all.deb ...
+Unpacking node-which (1.3.0-1) ...
+Selecting previously unselected package node-gyp.
+Preparing to unpack .../121-node-gyp_3.6.2-1ubuntu1_all.deb ...
+Unpacking node-gyp (3.6.2-1ubuntu1) ...
+Selecting previously unselected package node-ini.
+Preparing to unpack .../122-node-ini_1.3.4-1_all.deb ...
+Unpacking node-ini (1.3.4-1) ...
+Selecting previously unselected package node-lockfile.
+Preparing to unpack .../123-node-lockfile_0.4.1-1_all.deb ...
+Unpacking node-lockfile (0.4.1-1) ...
+Selecting previously unselected package node-lru-cache.
+Preparing to unpack .../124-node-lru-cache_4.1.1-1_all.deb ...
+Unpacking node-lru-cache (4.1.1-1) ...
+Selecting previously unselected package node-mute-stream.
+Preparing to unpack .../125-node-mute-stream_0.0.7-1_all.deb ...
+Unpacking node-mute-stream (0.0.7-1) ...
+Selecting previously unselected package node-normalize-package-data.
+Preparing to unpack .../126-node-normalize-package-data_2.3.5-2_all.deb ...
+Unpacking node-normalize-package-data (2.3.5-2) ...
+Selecting previously unselected package node-read.
+Preparing to unpack .../127-node-read_1.0.7-1_all.deb ...
+Unpacking node-read (1.0.7-1) ...
+Selecting previously unselected package node-read-package-json.
+Preparing to unpack .../128-node-read-package-json_1.2.4-1_all.deb ...
+Unpacking node-read-package-json (1.2.4-1) ...
+Selecting previously unselected package node-retry.
+Preparing to unpack .../129-node-retry_0.10.1-1_all.deb ...
+Unpacking node-retry (0.10.1-1) ...
+Selecting previously unselected package node-sha.
+Preparing to unpack .../130-node-sha_1.2.3-1_all.deb ...
+Unpacking node-sha (1.2.3-1) ...
+Selecting previously unselected package node-slide.
+Preparing to unpack .../131-node-slide_1.1.6-1_all.deb ...
+Unpacking node-slide (1.1.6-1) ...
+Selecting previously unselected package npm.
+Preparing to unpack .../132-npm_3.5.2-0ubuntu4_all.deb ...
+Unpacking npm (3.5.2-0ubuntu4) ...
+Setting up libquadmath0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up node-lockfile (0.4.1-1) ...
+Setting up libnpth0:amd64 (1.5-3) ...
+Setting up node-spdx-expression-parse (1.0.4-1) ...
+Setting up libgomp1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libjs-jquery (3.2.1-1) ...
+Setting up libatomic1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up node-qs (2.2.4-1ubuntu1) ...
+Setting up manpages (4.15-1) ...
+Setting up node-osenv (0.1.4-1) ...
+Setting up node-ansi (0.3.0-2ubuntu1) ...
+Setting up libcc1-0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up make (4.1-9.1ubuntu1) ...
+Setting up libjs-node-uuid (1.4.7-5) ...
+Setting up node-hosted-git-info (2.5.0-1) ...
+Setting up libjs-underscore (1.8.3~dfsg-1) ...
+Setting up node-delayed-stream (0.0.5-1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Setting up libjs-inherits (2.0.3-1) ...
+Setting up node-tunnel-agent (0.3.1-1) ...
+Setting up node-balanced-match (0.4.2-1) ...
+Setting up node-node-uuid (1.4.7-5) ...
+Setting up node-yallist (2.0.0-1) ...
+Setting up node-slide (1.1.6-1) ...
+Setting up libtsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up node-github-url-from-git (1.4.0-1) ...
+Setting up node-pseudomap (1.0.2-1) ...
+Setting up linux-libc-dev:amd64 (4.15.0-47.50) ...
+Setting up libmpfr6:amd64 (4.0.1-1) ...
+Setting up libdpkg-perl (1.19.0.5ubuntu2.1) ...
+Setting up libssl1.0-dev:amd64 (1.0.2n-1ubuntu5.3) ...
+Setting up node-spdx-license-ids (1.2.2-1) ...
+Setting up node-combined-stream (0.0.5-1) ...
+Setting up node-wrappy (1.0.2-1) ...
+Setting up libksba8:amd64 (1.3.5-2) ...
+Setting up node-mime (1.3.4-1) ...
+Setting up node-abbrev (1.0.9-1) ...
+Setting up node-semver (5.4.1-1) ...
+Setting up gnupg-l10n (2.2.4-1ubuntu1.2) ...
+Setting up liblsan0:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up node-retry (0.10.1-1) ...
+Setting up gcc-7-base:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up binutils-common:amd64 (2.30-21ubuntu1~18.04) ...
+Setting up libfile-fcntllock-perl (0.22-3build2) ...
+Setting up libmpx2:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up node-forever-agent (0.5.1-1) ...
+Setting up node-underscore (1.8.3~dfsg-1) ...
+Setting up patch (2.7.6-2ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up node-json-stringify-safe (5.0.0-1) ...
+Setting up xz-utils (5.2.2-1.3) ...
+update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzma.1.gz because associated file /usr/share/man/man1/xz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/unlzma.1.gz because associated file /usr/share/man/man1/unxz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcat.1.gz because associated file /usr/share/man/man1/xzcat.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzmore.1.gz because associated file /usr/share/man/man1/xzmore.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzless.1.gz because associated file /usr/share/man/man1/xzless.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzdiff.1.gz because associated file /usr/share/man/man1/xzdiff.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcmp.1.gz because associated file /usr/share/man/man1/xzcmp.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzgrep.1.gz because associated file /usr/share/man/man1/xzgrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzegrep.1.gz because associated file /usr/share/man/man1/xzegrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzfgrep.1.gz because associated file /usr/share/man/man1/xzfgrep.1.gz (of link group lzma) doesn't exist
+Setting up node-inherits (2.0.3-1) ...
+Setting up libfakeroot:amd64 (1.22-2ubuntu1) ...
+Setting up node-graceful-fs (4.1.11-1) ...
+Setting up node-archy (1.0.0-1ubuntu1) ...
+Setting up libalgorithm-diff-perl (1.19.03-1) ...
+Setting up liblocale-gettext-perl (1.07-3build2) ...
+Setting up node-path-is-absolute (1.0.0-1) ...
+Setting up node-builtin-modules (1.1.1-1) ...
+Setting up libmpc3:amd64 (1.1.0-1) ...
+Setting up node-isexe (2.0.0-3) ...
+Setting up node-spdx-correct (1.0.2-1) ...
+Setting up libc-dev-bin (2.27-3ubuntu1) ...
+Setting up javascript-common (11) ...
+Setting up node-cookie-jar (0.3.1-1) ...
+Setting up node-mute-stream (0.0.7-1) ...
+Setting up libjs-async (0.8.0-3) ...
+Setting up manpages-dev (4.15-1) ...
+Setting up libc6-dev:amd64 (2.27-3ubuntu1) ...
+Setting up node-concat-map (0.0.1-1) ...
+Setting up node-ini (1.3.4-1) ...
+Setting up libassuan0:amd64 (2.5.1-2) ...
+Setting up node-mkdirp (0.5.1-1) ...
+Setting up node-once (1.4.0-2ubuntu1) ...
+Setting up libitm1:amd64 (8.2.0-1ubuntu2~18.04) ...
+Setting up libpython2.7-stdlib:amd64 (2.7.15~rc1-1ubuntu0.1) ...
+Setting up node-sha (1.2.3-1) ...
+Setting up node-fs.realpath (1.0.0-1) ...
+Setting up libuv1-dev:amd64 (1.18.0-3) ...
+Setting up libisl19:amd64 (0.19-1) ...
+Setting up node-brace-expansion (1.1.8-1) ...
+Setting up node-ansi-color-table (1.0.0-1) ...
+Setting up node-npmlog (0.0.4-1) ...
+Setting up node-is-builtin-module (1.0.0-1) ...
+Setting up libasan4:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up libbinutils:amd64 (2.30-21ubuntu1~18.04) ...
+Setting up libcilkrts5:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up node-nopt (3.0.6-3) ...
+Setting up libubsan0:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up gpgconf (2.2.4-1ubuntu1.2) ...
+Setting up node-which (1.3.0-1) ...
+Setting up node-lru-cache (4.1.1-1) ...
+Setting up python2.7 (2.7.15~rc1-1ubuntu0.1) ...
+Setting up node-block-stream (0.0.9-1ubuntu1) ...
+Setting up fakeroot (1.22-2ubuntu1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/fakeroot.1.gz because associated file /usr/share/man/man1/fakeroot-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/faked.1.gz because associated file /usr/share/man/man1/faked-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/es/man1/fakeroot.1.gz because associated file /usr/share/man/es/man1/fakeroot-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/es/man1/faked.1.gz because associated file /usr/share/man/es/man1/faked-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/fakeroot.1.gz because associated file /usr/share/man/fr/man1/fakeroot-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/faked.1.gz because associated file /usr/share/man/fr/man1/faked-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/sv/man1/fakeroot.1.gz because associated file /usr/share/man/sv/man1/fakeroot-sysv.1.gz (of link group fakeroot) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/sv/man1/faked.1.gz because associated file /usr/share/man/sv/man1/faked-sysv.1.gz (of link group fakeroot) doesn't exist
+Setting up libgcc-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up node-validate-npm-package-license (3.0.1-1) ...
+Setting up cpp-7 (7.3.0-27ubuntu1~18.04) ...
+Setting up node-inflight (1.0.6-1) ...
+Setting up libstdc++-7-dev:amd64 (7.3.0-27ubuntu1~18.04) ...
+Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up node-read (1.0.7-1) ...
+Setting up libalgorithm-diff-xs-perl (0.04-5) ...
+Setting up gpgsm (2.2.4-1ubuntu1.2) ...
+Setting up gnupg-utils (2.2.4-1ubuntu1.2) ...
+Setting up pinentry-curses (1.1.0-1) ...
+Setting up node-async (0.8.0-3) ...
+Setting up node-form-data (0.1.0-1) ...
+Setting up dirmngr (2.2.4-1ubuntu1.2) ...
+Setting up node-request (2.26.1-1) ...
+Setting up node-minimatch (3.0.4-3) ...
+Setting up python (2.7.15~rc1-1) ...
+Setting up gpg (2.2.4-1ubuntu1.2) ...
+Setting up binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04) ...
+Setting up node-normalize-package-data (2.3.5-2) ...
+Setting up cpp (4:7.3.0-3ubuntu2.1) ...
+Setting up gpg-agent (2.2.4-1ubuntu1.2) ...
+Setting up gpg-wks-server (2.2.4-1ubuntu1.2) ...
+Setting up python-pkg-resources (39.0.1-2) ...
+Setting up gpg-wks-client (2.2.4-1ubuntu1.2) ...
+Setting up node-glob (7.1.2-4) ...
+Setting up gyp (0.1+20150913git1f374df9-1ubuntu1) ...
+Setting up binutils (2.30-21ubuntu1~18.04) ...
+Setting up nodejs-dev (8.10.0~dfsg-2ubuntu0.4) ...
+Setting up gcc-7 (7.3.0-27ubuntu1~18.04) ...
+Setting up g++-7 (7.3.0-27ubuntu1~18.04) ...
+Setting up gnupg (2.2.4-1ubuntu1.2) ...
+Setting up gcc (4:7.3.0-3ubuntu2.1) ...
+Setting up node-rimraf (2.6.2-1) ...
+Setting up node-read-package-json (1.2.4-1) ...
+Setting up dpkg-dev (1.19.0.5ubuntu2.1) ...
+Setting up g++ (4:7.3.0-3ubuntu2.1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/c++.1.gz because associated file /usr/share/man/man1/g++.1.gz (of link group c++) doesn't exist
+Setting up node-fstream (1.0.10-1) ...
+Setting up build-essential (12.4ubuntu1) ...
+Setting up node-fstream-ignore (0.0.6-2) ...
+Setting up node-tar (2.2.1-1) ...
+Setting up node-gyp (3.6.2-1ubuntu1) ...
+Setting up npm (3.5.2-0ubuntu4) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Removing intermediate container 1ff68939cffa
+ ---> f3d96c01fa92
+Step 10/13 : RUN npm -v
+ ---> Running in ac2fed7a763b
+3.5.2
+Removing intermediate container ac2fed7a763b
+ ---> a9659b14d22a
+Step 11/13 : RUN npm install -g newman
+ ---> Running in 797d59fa9619
+/usr/local/bin/newman -> /usr/local/lib/node_modules/newman/bin/newman.js
+/usr/local/lib
+`-- newman@4.4.1 
+  +-- async@2.6.1 
+  +-- chardet@0.7.0 
+  +-- cli-progress@2.1.1 
+  | `-- string-width@2.1.1 
+  |   +-- is-fullwidth-code-point@2.0.0 
+  |   `-- strip-ansi@4.0.0 
+  |     `-- ansi-regex@3.0.0 
+  +-- cli-table3@0.5.1 
+  | `-- object-assign@4.1.1 
+  +-- colors@1.3.3 
+  +-- commander@2.19.0 
+  +-- csv-parse@4.0.1 
+  +-- eventemitter3@3.1.0 
+  +-- filesize@4.1.2 
+  +-- lodash@4.17.11 
+  +-- mkdirp@0.5.1 
+  | `-- minimist@0.0.8 
+  +-- postman-collection@3.4.6 
+  | +-- escape-html@1.0.3 
+  | +-- file-type@3.9.0 
+  | +-- http-reasons@0.1.0 
+  | +-- iconv-lite@0.4.24 
+  | | `-- safer-buffer@2.1.2 
+  | +-- liquid-json@0.3.1 
+  | +-- marked@0.6.1 
+  | +-- mime-format@2.0.0 
+  | | `-- charset@1.0.1 
+  | +-- mime-types@2.1.22 
+  | | `-- mime-db@1.38.0 
+  | +-- postman-url-encoder@1.0.1 
+  | +-- sanitize-html@1.20.0 
+  | | +-- chalk@2.4.2 
+  | | | +-- ansi-styles@3.2.1 
+  | | | | `-- color-convert@1.9.3 
+  | | | |   `-- color-name@1.1.3 
+  | | | +-- escape-string-regexp@1.0.5 
+  | | | `-- supports-color@5.5.0 
+  | | |   `-- has-flag@3.0.0 
+  | | +-- htmlparser2@3.10.1 
+  | | | +-- domelementtype@1.3.1 
+  | | | +-- domhandler@2.4.2 
+  | | | +-- domutils@1.7.0 
+  | | | | `-- dom-serializer@0.1.1 
+  | | | +-- entities@1.1.2 
+  | | | `-- readable-stream@3.3.0 
+  | | |   +-- string_decoder@1.2.0 
+  | | |   `-- util-deprecate@1.0.2 
+  | | +-- lodash.clonedeep@4.5.0 
+  | | +-- lodash.escaperegexp@4.1.2 
+  | | +-- lodash.isplainobject@4.0.6 
+  | | +-- lodash.isstring@4.0.1 
+  | | +-- lodash.mergewith@4.6.1 
+  | | +-- postcss@7.0.14 
+  | | | +-- source-map@0.6.1 
+  | | | `-- supports-color@6.1.0 
+  | | +-- srcset@1.0.0 
+  | | | +-- array-uniq@1.0.3 
+  | | | `-- number-is-nan@1.0.1 
+  | | `-- xtend@4.0.1 
+  | `-- uuid@3.3.2 
+  +-- postman-collection-transformer@3.0.0 
+  | +-- inherits@2.0.3 
+  | +-- intel@1.2.0 
+  | | +-- chalk@1.1.3 
+  | | | +-- ansi-styles@2.2.1 
+  | | | +-- has-ansi@2.0.0 
+  | | | | `-- ansi-regex@2.1.1 
+  | | | +-- strip-ansi@3.0.1 
+  | | | | `-- ansi-regex@2.1.1 
+  | | | `-- supports-color@2.0.0 
+  | | +-- dbug@0.4.2 
+  | | +-- stack-trace@0.0.10 
+  | | +-- strftime@0.10.0 
+  | | +-- symbol@0.3.1 
+  | | `-- utcstring@0.1.0 
+  | `-- strip-json-comments@2.0.1 
+  +-- postman-request@2.88.1-postman.8 
+  | +-- aws-sign2@0.7.0 
+  | +-- aws4@1.8.0 
+  | +-- caseless@0.12.0 
+  | +-- combined-stream@1.0.7 
+  | | `-- delayed-stream@1.0.0 
+  | +-- extend@3.0.2 
+  | +-- forever-agent@0.6.1 
+  | +-- form-data@2.3.3 
+  | | `-- asynckit@0.4.0 
+  | +-- har-validator@5.1.3 
+  | | +-- ajv@6.10.0 
+  | | | +-- fast-deep-equal@2.0.1 
+  | | | +-- fast-json-stable-stringify@2.0.0 
+  | | | +-- json-schema-traverse@0.4.1 
+  | | | `-- uri-js@4.2.2 
+  | | `-- har-schema@2.0.0 
+  | +-- http-signature@1.2.0 
+  | | +-- assert-plus@1.0.0 
+  | | +-- jsprim@1.4.1 
+  | | | +-- extsprintf@1.3.0 
+  | | | +-- json-schema@0.2.3 
+  | | | `-- verror@1.10.0 
+  | | |   `-- core-util-is@1.0.2 
+  | | `-- sshpk@1.16.1 
+  | |   +-- asn1@0.2.4 
+  | |   +-- bcrypt-pbkdf@1.0.2 
+  | |   +-- dashdash@1.14.1 
+  | |   +-- ecc-jsbn@0.1.2 
+  | |   +-- getpass@0.1.7 
+  | |   +-- jsbn@0.1.1 
+  | |   `-- tweetnacl@0.14.5 
+  | +-- is-typedarray@1.0.0 
+  | +-- isstream@0.1.2 
+  | +-- json-stringify-safe@5.0.1 
+  | +-- oauth-sign@0.9.0 
+  | +-- performance-now@2.1.0 
+  | +-- qs@6.5.2 
+  | +-- safe-buffer@5.1.2 
+  | +-- stream-length@1.0.2 
+  | | `-- bluebird@2.11.0 
+  | +-- tough-cookie@2.5.0 
+  | | +-- psl@1.1.31 
+  | | `-- punycode@2.1.1 
+  | `-- tunnel-agent@0.6.0 
+  +-- postman-runtime@7.11.0 
+  | +-- btoa@1.2.1 
+  | +-- crypto-js@3.1.9-1 
+  | +-- httpntlm@1.7.6 
+  | | +-- httpreq@0.4.24 
+  | | `-- underscore@1.7.0 
+  | +-- node-oauth1@1.2.2 
+  | +-- postman-sandbox@3.2.6 
+  | | `-- uvm@1.7.5 
+  | |   `-- flatted@2.0.0 
+  | `-- resolve-from@4.0.0 
+  +-- pretty-ms@4.0.0 
+  | `-- parse-ms@2.0.0 
+  +-- semver@5.6.0 
+  +-- serialised-error@1.1.3 
+  | +-- object-hash@1.3.1 
+  | `-- stack-trace@0.0.9 
+  +-- word-wrap@1.2.3 
+  `-- xmlbuilder@11.0.1 
+
+Removing intermediate container 797d59fa9619
+ ---> 14cc8536e80d
+Step 12/13 : RUN composer install
+ ---> Running in 1267d4e4769c
+[91mDo not run Composer as root/super user! See https://getcomposer.org/root for details
+[0m[91mLoading composer repositories with package information
+[0m[91mInstalling dependencies (including require-dev) from lock file
+[0m[91mPackage operations: 103 installs, 0 updates, 0 removals
+[0m[91m  - Installing symfony/routing (v4.1.10): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/polyfill-mbstring (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (30%)[0m[91mDownloading (55%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/polyfill-ctype (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/http-foundation (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/event-dispatcher (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing psr/log (1.1.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (65%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/debug (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (10%)[0m[91mDownloading (20%)[0m[91mDownloading (35%)[0m[91mDownloading (45%)[0m[91mDownloading (55%)[0m[91mDownloading (65%)[0m[91mDownloading (75%)[0m[91mDownloading (85%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/http-kernel (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/finder (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91m[0m[91mDownloading (10%)[0m[91mDownloading (50%)Downloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/filesystem (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing psr/container (1.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91m[0m[91mDownloading (75%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/dependency-injection (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/config (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/class-loader (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/var-exporter (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/contracts (v1.0.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (45%)[0m[91mDownloading (75%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing psr/simple-cache (1.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (30%)[0m[91mDownloading (60%)[0m[91m[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing psr/cache (1.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (45%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/cache (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/framework-bundle (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing doctrine/lexer (v1.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/inflector (v1.3.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (35%)[0m[91mDownloading (70%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/collections (v1.5.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/cache (v1.8.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (25%)[0m[91mDownloading (55%)[0m[91mDownloading (65%)[0m[91mDownloading (75%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/annotations (v1.6.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (30%)[0m[91mDownloading (40%)[0m[91mDownloading (70%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/common (v2.7.3): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (40%)[0m[91m[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/doctrine-bridge (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/console (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing jdorn/sql-formatter (v1.2.17): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (10%)[0m[91mDownloading (35%)[0m[91mDownloading (80%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/doctrine-cache-bundle (1.3.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (45%)[0m[91m[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (75%)[0m[91mDownloading (85%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/dbal (v2.5.12): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/doctrine-bundle (1.6.7): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/instantiator (1.0.5): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (30%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (65%)[0m[91mDownloading (75%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing doctrine/orm (v2.5.6): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/yaml (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing incenteev/composer-parameter-handler (v2.1.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (25%)[0m[91mDownloading (35%)[0m[91mDownloading (65%)[0m[91m[0m[91mDownloading (75%)[0m[91mDownloading (85%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpoption/phpoption (1.5.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (25%)[0m[91mDownloading (70%)[0m[91mDownloading (85%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpcollection/phpcollection (0.5.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (10%)[0m[91mDownloading (20%)[0m[91mDownloading (30%)[0m[91mDownloading (40%)[0m[91mDownloading (70%)[0m[91m[0m[91mDownloading (80%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing jms/parser-lib (1.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (35%)[0m[91mDownloading (70%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing jms/metadata (1.6.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (30%)[0m[91mDownloading (40%)[0m[91mDownloading (50%)[0m[91mDownloading (70%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing jms/serializer (1.5.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/translation (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/validator (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing kununu/controller-validation-bundle (dev-master da1ea44): [0m[91mCloning da1ea44a3e from cache
+[0m[91m  - Installing monolog/monolog (1.22.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91m[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/monolog-bridge (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/monolog-bundle (v3.0.3): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)[0m[91m           Downloading (5%)[0m[91mDownloading (10%)Downloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (35%)[0m[91m[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing mediamonks/rest-api (v1.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing mediamonks/rest-api-bundle (v3.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing jms/serializer-bundle (1.2.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing kununu/rest-api-bundle (1.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing paragonie/random_compat (v9.99.99): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (45%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/process (v3.4.21): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           Downloading (5%)[0m[91mDownloading (50%)[0m[91mDownloading (60%)[0m[91m[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sensiolabs/security-checker (v4.0.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (30%)[0m[91m[0m[91mDownloading (45%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sensio/distribution-bundle (v5.0.18): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (75%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sensio/framework-extra-bundle (v3.0.23): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91m[0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/polyfill-apcu (v1.3.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)[0m[91m           Downloading (50%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/inflector (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/property-access (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/security (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/polyfill-php70 (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91m[0m[91mDownloading (85%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/security-bundle (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing webmozart/assert (1.2.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (55%)[0m[91mDownloading (80%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpdocumentor/reflection-common (1.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (65%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpdocumentor/type-resolver (0.2.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (20%)[0m[91mDownloading (35%)[0m[91mDownloading (55%)[0m[91mDownloading (75%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpdocumentor/reflection-docblock (3.1.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/php-token-stream (1.4.11): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)Downloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)Downloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/version (2.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/resource-operations (1.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (65%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/recursion-context (2.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/object-enumerator (2.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/global-state (1.1.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (40%)[0m[91mDownloading (80%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/exporter (2.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/environment (2.0.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           Downloading (15%)Downloading (30%)[0m[91mDownloading (45%)Downloading (60%)[0m[91mDownloading (75%)Downloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/diff (1.4.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (15%)[0m[91mDownloading (30%)[0m[91mDownloading (45%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/comparator (1.2.4): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91m[0m[91mDownloading (10%)[0m[91mDownloading (75%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/php-text-template (1.2.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (35%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/phpunit-mock-objects (3.4.3): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/php-timer (1.0.9): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (45%)[0m[91mDownloading (90%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/php-file-iterator (1.4.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (20%)Downloading (40%)[0m[91mDownloading (60%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sebastian/code-unit-reverse-lookup (1.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (55%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing phpunit/php-code-coverage (4.0.7): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing phpspec/prophecy (v1.7.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing myclabs/deep-copy (1.6.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing phpunit/phpunit (5.7.16): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing twig/twig (v2.6.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91m[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing sensio/generator-bundle (v3.1.4): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/apache-pack (v1.0.1): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/dom-crawler (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/browser-kit (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/polyfill-php72 (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           Downloading (80%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/var-dumper (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (5%)[0m[91mDownloading (10%)[0m[91mDownloading (15%)[0m[91mDownloading (20%)[0m[91mDownloading (25%)[0m[91mDownloading (30%)[0m[91mDownloading (35%)[0m[91mDownloading (40%)[0m[91mDownloading (45%)[0m[91mDownloading (50%)[0m[91mDownloading (55%)[0m[91mDownloading (60%)[0m[91mDownloading (65%)[0m[91mDownloading (70%)[0m[91mDownloading (75%)[0m[91mDownloading (80%)[0m[91mDownloading (85%)[0m[91mDownloading (90%)[0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/twig-bridge (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/debug-bundle (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/polyfill-intl-icu (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           Downloading (50%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/intl (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/polyfill-util (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           Downloading (55%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/polyfill-php56 (v1.10.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (95%)[0m[91mDownloading (100%)[0m[91m
+[0m[91m  - Installing symfony/stopwatch (v4.2.2): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/twig-bundle (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/web-profiler-bundle (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing symfony/web-server-bundle (v3.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (100%)         [0m[91m
+[0m[91m  - Installing vlucas/phpdotenv (v2.4.0): [0m[91mDownloading (connecting...)[0m[91mDownloading (0%)           [0m[91mDownloading (80%)[0m[91mDownloading (100%)[0m[91m
+[0m[91msymfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/dependency-injection suggests installing symfony/expression-language (For using expressions in service container configuration)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+symfony/contracts suggests installing symfony/service-contracts-implementation ()
+[0m[91msymfony/framework-bundle suggests installing ext-apcu (For best performance of the system caches)
+symfony/framework-bundle suggests installing symfony/form (For using forms)
+symfony/framework-bundle suggests installing symfony/property-info (For using the property_info service)
+symfony/framework-bundle suggests installing symfony/serializer (For using the serializer service)
+symfony/framework-bundle suggests installing symfony/web-link (For using web links, features such as preloading, prefetching or prerendering)
+[0m[91mdoctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+symfony/doctrine-bridge suggests installing doctrine/data-fixtures ()
+[0m[91msymfony/doctrine-bridge suggests installing symfony/form ()
+[0m[91msymfony/doctrine-bridge suggests installing symfony/property-info ()
+[0m[91msymfony/console suggests installing symfony/lock ()
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+[0m[91msymfony/validator suggests installing egulias/email-validator (Strict (RFC compliant) email validation)
+symfony/validator suggests installing symfony/expression-language (For using the Expression validator)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+[0m[91mmonolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+[0m[91mmonolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+[0m[91mmonolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+[0m[91mjms/serializer-bundle suggests installing jms/di-extra-bundle (Required to get lazy loading (de)serialization visitors, ~1.3)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+[0m[91msensio/framework-extra-bundle suggests installing symfony/expression-language ()
+[0m[91msensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+symfony/security suggests installing symfony/expression-language (For using the expression voter)
+symfony/security suggests installing symfony/form ()
+[0m[91msymfony/security suggests installing symfony/ldap (For using the LDAP user and authentication providers)
+[0m[91msymfony/security-bundle suggests installing symfony/security-acl (For using the ACL functionality of this bundle)
+sebastian/global-state suggests installing ext-uopz (*)
+[0m[91mphpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+[0m[91msymfony/dom-crawler suggests installing symfony/css-selector ()
+[0m[91msymfony/twig-bridge suggests installing symfony/asset (For using the AssetExtension)
+symfony/twig-bridge suggests installing symfony/expression-language (For using the ExpressionExtension)
+[0m[91msymfony/twig-bridge suggests installing symfony/form (For using the FormExtension)
+symfony/twig-bridge suggests installing symfony/templating (For using the TwigEngine)
+[0m[91msymfony/twig-bridge suggests installing symfony/web-link (For using the WebLinkExtension)
+[0m[91mGenerating autoload files
+[0m[91m> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+[0m[91m> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+[0mCreating the "config/parameters.yml" file
+Removing intermediate container 1267d4e4769c
+ ---> 2b608f2fe5c5
+Step 13/13 : CMD ["php", "bin/console", "server:run", "*:8000" ]
+ ---> Running in 3012b10c5161
+Removing intermediate container 3012b10c5161
+ ---> 949ea8b86fa2
+Successfully built 949ea8b86fa2
+Successfully tagged 9d8b3d6a3b2af81f1db603c2178ddb4886c1aa08:latest
+[8mha:////4BrdiiVNk59DH7KMdjHoup0LYH7nC5k7drOrN0wpPmJ8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHJ54PfvgAAAA==[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4JU0LF4BW5qfNoD5pTtoF0l6d+daChrxW3kiJyumZY9kAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFudLBjvgAAAA==[0m[Pipeline] }
+[8mha:////4OGs6VbZAHPvPlnE4EVs1/J/8aW4T69Z3MviFQk5x/n3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bl2X69++AAAA[0m[Pipeline] // stage
+[8mha:////4GQDS+a3Il87KpfmXpw5uZwSPozM15cXb4nFsXFFuO2ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhtIgqrZWGF5j4ME6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDkb0SIOl2Fnh3WjyEhOH4ep4Ej1fRMcU2aFocWpZY7NgywlhSVHCSsIGqXMcLZkEW9mrh6qcIlOdU8jfUUJp9R2eUMhsTiqkL8wBdrdRR6af568AZp+grOtch73/AH7eGwW+AAAA[0m[Pipeline] sh
++ docker inspect -f . 9d8b3d6a3b2af81f1db603c2178ddb4886c1aa08
+.
+[8mha:////4N6i5FexURxCcdjm3FZo5HLj5EqLOG33I1asiGPrGprkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container cf8d4f86b13c2ee16f54912698b099cec3c515ea04ee5b025695ece7ea1b3999
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/Sample_Pipeline_master --volumes-from cf8d4f86b13c2ee16f54912698b099cec3c515ea04ee5b025695ece7ea1b3999 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** 9d8b3d6a3b2af81f1db603c2178ddb4886c1aa08 cat
+$ docker top 69c45f8c575a9b62586fc9c7f764d753fd408d7ef25e3ee27ce4c0f6ee965a6e -eo pid,comm
+[8mha:////4FK52tF5YkLx/5RnjFpWEYw6xkpLirFooAuyg9aZVtb1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4GY+oEQlx75QdM9uoAEierXe4EyVbAFj5L3WhAZ9pt/rAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] stage
+[8mha:////4LXJdvAlB7rT2G/16iYd9c56F4dW66NQHXbusnUT32pcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (pre-define)
+[8mha:////4PSgW2jJoqvVn3mA9h62Vrd0utJ9I65WU4we9BLroeGLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Sample_Pipeline_master/sample-application
+[8mha:////4Gkyxk9305pTfzKY3BRhwJ/SDtAOIunHoEAcspYQAR3JAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4DYG3g8J5hJFDk91l7vGVQopExrNLeAGHoJYD9uet/aVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ composer update
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 103 installs, 0 updates, 0 removals
+  - Installing doctrine/lexer (v1.0.1): Loading from cache
+  - Installing doctrine/annotations (v1.6.1): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (100%)
+  - Installing doctrine/reflection (v1.0.0): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (20%)Downloading (65%)Downloading (75%)Downloading (85%)Downloading (95%)Downloading (100%)
+  - Installing doctrine/event-manager (v1.0.0): Downloading (connecting...)Downloading (0%)           Downloading (95%)Downloading (100%)
+  - Installing doctrine/collections (v1.6.1): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (70%)Downloading (100%)
+  - Installing doctrine/cache (v1.8.0): Loading from cache
+  - Installing doctrine/persistence (v1.1.0): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (25%)Downloading (40%)Downloading (70%)Downloading (80%)Downloading (95%)Downloading (100%)
+  - Installing doctrine/inflector (v1.3.0): Loading from cache
+  - Installing doctrine/common (v2.10.0): Downloading (connecting...)Downloading (0%)           Downloading (25%)Downloading (50%)Downloading (55%)Downloading (80%)Downloading (95%)Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.11.0): Downloading (connecting...)Downloading (0%)           Downloading (30%)Downloading (55%)Downloading (85%)Downloading (100%)
+  - Installing symfony/contracts (v1.0.2): Loading from cache
+  - Installing symfony/translation (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/polyfill-ctype (v1.11.0): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing symfony/validator (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing psr/log (1.1.0): Loading from cache
+  - Installing symfony/debug (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (15%)Downloading (25%)Downloading (35%)Downloading (45%)Downloading (50%)Downloading (60%)Downloading (70%)Downloading (85%)Downloading (95%)Downloading (100%)
+  - Installing symfony/http-foundation (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing symfony/polyfill-php70 (v1.11.0): Downloading (connecting...)Downloading (0%)           Downloading (85%)Downloading (100%)
+  - Installing symfony/event-dispatcher (v3.4.0): Loading from cache
+  - Installing symfony/http-kernel (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/dependency-injection (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing kununu/controller-validation-bundle (dev-master f3e8a4e): Cloning f3e8a4e598 from cache
+  - Installing symfony/inflector (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (75%)Downloading (90%)Downloading (100%)
+  - Installing symfony/property-access (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (65%)Downloading (85%)Downloading (100%)
+  - Installing symfony/security (v4.2.5): Downloading (connecting...)Downloading (100%)         
+  - Installing symfony/security-bundle (v3.4.0): Loading from cache
+  - Installing symfony/polyfill-php72 (v1.11.0): Downloading (connecting...)Downloading (0%)           Downloading (80%)Downloading (100%)
+  - Installing symfony/var-dumper (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (100%)
+  - Installing twig/twig (v2.7.4): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/twig-bridge (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/debug-bundle (v3.4.0): Loading from cache
+  - Installing symfony/filesystem (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (70%)Downloading (75%)Downloading (100%)
+  - Installing symfony/config (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/twig-bundle (v3.4.0): Loading from cache
+  - Installing symfony/routing (v4.1.11): Downloading (connecting...)Downloading (100%)         
+  - Installing symfony/web-profiler-bundle (v3.4.0): Loading from cache
+  - Installing symfony/process (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (30%)Downloading (35%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/console (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/web-server-bundle (v3.4.0): Loading from cache
+  - Installing symfony/doctrine-bridge (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing doctrine/doctrine-cache-bundle (1.3.5): Downloading (connecting...)Downloading (0%)           Downloading (25%)Downloading (55%)Downloading (75%)Downloading (100%)
+  - Installing jdorn/sql-formatter (v1.2.17): Loading from cache
+  - Installing doctrine/dbal (v2.9.2): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/finder (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (100%)
+  - Installing symfony/class-loader (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (20%)Downloading (30%)Downloading (40%)Downloading (50%)Downloading (60%)Downloading (70%)Downloading (80%)Downloading (90%)Downloading (100%)
+  - Installing symfony/var-exporter (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (100%)
+  - Installing psr/simple-cache (1.0.1): Loading from cache
+  - Installing psr/cache (1.0.1): Loading from cache
+  - Installing symfony/cache (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/polyfill-apcu (v1.11.0): Downloading (connecting...)Downloading (0%)           Downloading (75%)Downloading (100%)
+  - Installing symfony/framework-bundle (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing doctrine/doctrine-bundle (1.10.2): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (15%)Downloading (20%)Downloading (30%)Downloading (35%)Downloading (50%)Downloading (55%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing doctrine/instantiator (1.2.0): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing doctrine/orm (v2.6.3): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/yaml (v3.4.24): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (100%)
+  - Installing incenteev/composer-parameter-handler (v2.1.3): Downloading (connecting...)Downloading (0%)           Downloading (45%)Downloading (65%)Downloading (85%)Downloading (95%)Downloading (100%)
+  - Installing phpoption/phpoption (1.5.0): Loading from cache
+  - Installing phpcollection/phpcollection (0.5.0): Loading from cache
+  - Installing jms/parser-lib (1.0.0): Loading from cache
+  - Installing jms/metadata (1.7.0): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (25%)Downloading (40%)Downloading (50%)Downloading (65%)Downloading (80%)Downloading (90%)Downloading (100%)
+  - Installing jms/serializer (1.13.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing composer/ca-bundle (1.1.4): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing sensiolabs/security-checker (v5.0.3): Downloading (connecting...)Downloading (0%)           Downloading (25%)Downloading (100%)
+  - Installing sensio/distribution-bundle (v5.0.24): Downloading (connecting...)Downloading (0%)           Downloading (30%)Downloading (70%)Downloading (75%)Downloading (100%)
+  - Installing sensio/framework-extra-bundle (v3.0.29): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (25%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing monolog/monolog (1.24.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/monolog-bridge (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/monolog-bundle (v3.3.1): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (100%)
+  - Installing jms/serializer-bundle (1.5.0): Downloading (connecting...)Downloading (100%)         
+  - Installing mediamonks/rest-api (1.0.2): Downloading (connecting...)Downloading (100%)         
+  - Installing mediamonks/rest-api-bundle (3.1.0): Downloading (connecting...)Downloading (100%)         
+  - Installing kununu/rest-api-bundle (1.0.2): Downloading (connecting...)Downloading (100%)         
+  - Installing sensio/generator-bundle (v3.1.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing vlucas/phpdotenv (v2.6.1): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing myclabs/deep-copy (1.9.1): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (20%)Downloading (40%)Downloading (55%)Downloading (65%)Downloading (70%)Downloading (85%)Downloading (100%)
+  - Installing sebastian/version (2.0.1): Loading from cache
+  - Installing sebastian/resource-operations (1.0.0): Loading from cache
+  - Installing sebastian/recursion-context (2.0.0): Loading from cache
+  - Installing sebastian/object-enumerator (2.0.1): Loading from cache
+  - Installing sebastian/global-state (1.1.1): Loading from cache
+  - Installing sebastian/exporter (2.0.0): Loading from cache
+  - Installing sebastian/environment (2.0.0): Loading from cache
+  - Installing sebastian/diff (1.4.3): Downloading (connecting...)Downloading (0%)           Downloading (35%)Downloading (50%)Downloading (100%)
+  - Installing sebastian/comparator (1.2.4): Loading from cache
+  - Installing webmozart/assert (1.4.0): Downloading (connecting...)Downloading (0%)           Downloading (65%)Downloading (100%)
+  - Installing phpdocumentor/reflection-common (1.0.1): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing phpdocumentor/type-resolver (0.4.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (100%)
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (100%)
+  - Installing phpspec/prophecy (1.8.0): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (40%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/phpunit-mock-objects (3.4.4): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing phpunit/php-timer (1.0.9): Loading from cache
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Loading from cache
+  - Installing phpunit/php-token-stream (2.0.2): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (100%)
+  - Installing phpunit/php-file-iterator (1.4.5): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing phpunit/php-code-coverage (4.0.8): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing phpunit/phpunit (5.7.27): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/stopwatch (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (60%)Downloading (100%)
+  - Installing symfony/apache-pack (v1.0.1): Loading from cache
+  - Installing symfony/dom-crawler (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (30%)Downloading (35%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (100%)
+  - Installing symfony/browser-kit (v4.2.5): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (100%)
+doctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+symfony/contracts suggests installing symfony/service-contracts-implementation ()
+symfony/validator suggests installing symfony/intl ()
+symfony/validator suggests installing egulias/email-validator (Strict (RFC compliant) email validation)
+symfony/validator suggests installing symfony/expression-language (For using the Expression validator)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/dependency-injection suggests installing symfony/expression-language (For using expressions in service container configuration)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+symfony/security suggests installing symfony/form ()
+symfony/security suggests installing symfony/expression-language (For using the expression voter)
+symfony/security suggests installing symfony/ldap (For using the LDAP user and authentication providers)
+symfony/security-bundle suggests installing symfony/security-acl (For using the ACL functionality of this bundle)
+symfony/twig-bridge suggests installing symfony/asset (For using the AssetExtension)
+symfony/twig-bridge suggests installing symfony/form (For using the FormExtension)
+symfony/twig-bridge suggests installing symfony/templating (For using the TwigEngine)
+symfony/twig-bridge suggests installing symfony/expression-language (For using the ExpressionExtension)
+symfony/twig-bridge suggests installing symfony/web-link (For using the WebLinkExtension)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/console suggests installing symfony/lock ()
+symfony/doctrine-bridge suggests installing symfony/form ()
+symfony/doctrine-bridge suggests installing symfony/property-info ()
+symfony/doctrine-bridge suggests installing doctrine/data-fixtures ()
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+symfony/framework-bundle suggests installing ext-apcu (For best performance of the system caches)
+symfony/framework-bundle suggests installing symfony/form (For using forms)
+symfony/framework-bundle suggests installing symfony/serializer (For using the serializer service)
+symfony/framework-bundle suggests installing symfony/property-info (For using the property_info service)
+symfony/framework-bundle suggests installing symfony/web-link (For using web links, features such as preloading, prefetching or prerendering)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+sensio/framework-extra-bundle suggests installing symfony/expression-language ()
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+jms/serializer-bundle suggests installing jms/di-extra-bundle (Required to get lazy loading (de)serialization visitors, ~1.3)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+symfony/dom-crawler suggests installing symfony/css-selector ()
+Package phpunit/phpunit-mock-objects is abandoned, you should avoid using it. No replacement was suggested.
+Writing lock file
+Generating autoload files
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+Creating the "config/parameters.yml" file
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+
+ // Clearing the cache for the dev environment with debug                       
+ // true                                                                        
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.    
+
+[8mha:////4BmHH1g1lwd+zkCGOv2wWZeGrPlTS3z0iTnhCwWH9cSlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4BLpFe/K74Golh5Rfp+4pmalysHdnSyJrk+jrJx/1mPfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Nm8QlyRJFjAbewSDmKI1yzd/TDH7eXf0dZXYA3Rz9H9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUARvqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN//CNEfCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 15 min
+[8mha:////4D7jvmJLRvcRX1jGFBWTrfN2g0P3qJmnc05lGVhgES8IAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4IA7kbjpU8ScA8j5+uGQaJ3X+M5D+VZWaEF9ninPh/XDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fj0WMib4AAAA=[0m[Pipeline] }
+[8mha:////4CPV2nyMM/bQNOxOILknetLSgSepxDYIOVSN4etAiM83AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKClBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvKbXNb4AAAA=[0m[Pipeline] // timeout
+[8mha:////4PXBkrzlea3/0jt97N4d/teZ0flgc0x2QzC2k1kEwJjsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] }
+[8mha:////4KNLgAybqRGQ9dGMHiDi19WoU/JBH4ZFiu3gBc1PcT6bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFaJZxjvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FS6j2NZTkOqOiU1QUBnZgjKYIeVcINEGSlNBWN7dHo1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKhILYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g2h69h5wgAAAA==[0m[Pipeline] stage
+[8mha:////4D1eTwMCqQjbwTvePNInVcP2RpQgqLVrwuiDd5EYbFYeAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (syntax check)
+[8mha:////4CAolmW4VVdTBXlConhAsatqCCgxicqA6N59H0JF7z2DAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Sample_Pipeline_master/sample-application
+[8mha:////4PnD84Xe9a5tzcpHDPdf6WR8EBxH9evvYDO4hFUmJ26fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4HE5uZcfliJquAzFIPd4o+hBnKPRmzNz+sinOONzDaSbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
++ ./bin/parallel-lint --exclude app --exclude vendor .
+/var/jenkins_home/workspace/Sample_Pipeline_master/sample-application@tmp/durable-4d48729a/script.sh: 1: /var/jenkins_home/workspace/Sample_Pipeline_master/sample-application@tmp/durable-4d48729a/script.sh: ./bin/parallel-lint: not found
+[8mha:////4BanjguXbfROdiPVhA7WJ9B7dXXh3wDVluxZZeKmbBdRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[8mha:////4MjzB27O0njQ2pqmowQX7ws733Y6yJf2aQgfrxRerKcBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // dir
+[8mha:////4Hhi0OBl9fwhyT6qH4TNHqbn0GF5TTnfgIPOg++lgfCTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw+RDRRuvgAAAA==[0m[Pipeline] }
+[8mha:////4JekPA06NekpcBKz9fe8sJ2LJ2zGTwg26tHx6eEr/09RAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AG/DRYEvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FINgyjRpdEnFtSmDNWahFdFmVfuiVU+pa4AgbHKmPlBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqmBCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQGBp+s6wgAAAA==[0m[Pipeline] stage
+[8mha:////4Cqia3M1OAw3dFl0Vp6YKtRmvRYjwzkUX83o3X2NIDveAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (checkstyle)
+Stage "checkstyle" skipped due to earlier failure(s)
+[8mha:////4IkIN3tPgGYwX5M+vP/2VQ1c3oKPKrjpbohPlQ4n3dQrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9bpw82+AAAA[0m[Pipeline] }
+[8mha:////4AzJbm1ROkjdjpNMwvZwKBHWSUZv43oPG8mF2y0AFgAGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG5CpylvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DTR3J5nWgexK1VUHYDtq+/riXYPME/468cpFdU76TR5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqlgQYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g36ZylNwgAAAA==[0m[Pipeline] stage
+[8mha:////4FGLp4zfY/QNBhDRdHkH06okdRCipGlYX3kVQmi6cKlyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (copy paste detection)
+Stage "copy paste detection" skipped due to earlier failure(s)
+[8mha:////4G9d7af6qbNx987e2eZSoQEaUmAsKq3c1SfFOgWI3pckAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BguVlU2+AAAA[0m[Pipeline] }
+[8mha:////4HwOfHuMQIF78850YgyyjqcDvmmD3pvjhGc+osJVG1PzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQG7Gq74AAAA=[0m[Pipeline] // stage
+[8mha:////4LaCV0EnjVzJTSyqP3iVCorSKcs4j4f7zcSmAeba71dxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKmJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQEoT8VKwgAAAA==[0m[Pipeline] stage
+[8mha:////4A/VUIaSVlOFF3ZcHGbFDpOk0Wr+Hp1DVVwUoJ8Dwy5EAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (test: Unit Tests)
+Stage "test: Unit Tests" skipped due to earlier failure(s)
+[8mha:////4APWsaLeqKigu+8LN7+jFEFo5GrWVEWnKTTI+t2AVpEbAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fBBNp0b4AAAA=[0m[Pipeline] }
+[8mha:////4MLgkJqYPAJeS7A4sF+F3reysgNgMyjWu1LPzUY+bXSNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNwn0mcm+AAAA[0m[Pipeline] // stage
+[8mha:////4FA8ASRV9fvLl6N4H3lRepwvFQ6irGt0su4nMobsYMuNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqoQYEFPXqAsnCE0ISaP/S5KSTpyIq3EHApWY8GDZlqz3fEEVPBzJa2YVDgZDb9joJp0TS+SHi6PELJ1ZTxjIKdap1JFU7VI7igoWFSWsOKwV9o6CQR1hw624i9oJ1PUp+rwdOJRG3uABBc/kKHz8ltnD9jrJQPjj/AXAPEYomybbbv95Vm8+DVTRwgAAAA==[0m[Pipeline] stage
+[8mha:////4P5ErA1csTO6Usq/E34+yibZRwBZPmQd5MPNz1oZnwxoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (test: Functional Tests)
+Stage "test: Functional Tests" skipped due to earlier failure(s)
+[8mha:////4F907xVvIgkmcTyCrNAkXWQBtFhg6SnZnlhZ/K49Uh+aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N1SfHa++AAAA[0m[Pipeline] }
+[8mha:////4FoKJ9dO6rGYbE5jSsWtLQXNRpVQj0r37OcpKvDepYpkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGQyUUpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CdfrIwc/cphmoPiSEtP8B9CuMNettQRokbD6qfE/ZdJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdGBBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKBsmmz73edZvQG+9OU2wgAAAA==[0m[Pipeline] stage
+[8mha:////4NGEzfAaGmqGVW0dWDlVJDZsIFaGJky3/MhSrl+v4KaPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (email)
+Stage "email" skipped due to earlier failure(s)
+[8mha:////4OpLHR6ufZv9nUCUVVgzzuJPhZm0zpS0e6IDawuTz8lOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFyHJb0vgAAAA==[0m[Pipeline] }
+[8mha:////4Fe/6PXnmbgBnG9A7q8zufqW0QE5PhdToh0utNxmfoJjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFwfZpwvgAAAA==[0m[Pipeline] // stage
+[8mha:////4K4K6Ofdm2qCStv4F0XdM6BQly2HtW1j+/teZo/ChEU4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqgQLYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7z7P6g2otnStwgAAAA==[0m[Pipeline] stage
+[8mha:////4JziEaXIplHuBNyJeLHLB2DgncAXowJh1LqBvqO2izrbAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4NbypB8dCtGMZcXeqaHFQOCAqgXgFi7OOjI+Dpd67P8YAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxcKxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4N8tcxgr4AAAA=[0m[Pipeline] echo
+Send mail on failure
+[8mha:////4B5MLIXM9vU4T4s91ifq8N5RJ3vBYbqlWKW4CJG1vCbUAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NSbGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AT3LqQW+AAAA[0m[Pipeline] emailext
+An attempt to send an e-mail to empty list of recipients, ignored.
+[8mha:////4GESd7n48W1ZtChxKpXDsLcmFg/NerwdZwurMmqkiNQaAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NTHGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AQ37YFK+AAAA[0m[Pipeline] }
+[8mha:////4H1iyBwlWFSDAZDIjshWor8ajOwOlXriFWNX+OvvU44JAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHL8BFKvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KERrr4iHjM8149EVF8Y2CoHzbO3l+f4BYKmZZY+DXWGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QHJc0V7vgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 69c45f8c575a9b62586fc9c7f764d753fd408d7ef25e3ee27ce4c0f6ee965a6e
+$ docker rm -f 69c45f8c575a9b62586fc9c7f764d753fd408d7ef25e3ee27ce4c0f6ee965a6e
+[8mha:////4PKSOwxKMo9z1jznTBScqyfxK7iA0gmnwPzTDldFcR51AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wHdUNhkvgAAAA==[0m[Pipeline] // withDockerContainer
+[8mha:////4M2B24VWs0tT398cmAfIQ/sLAz03jRJzXxm10T/S0VuoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiIICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+70KmEvgAAAA==[0m[Pipeline] }
+[8mha:////4L81a2UFnaErpkkt6MzNsIzEdmjiAjEUK2xfOWYS82pdAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEhIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+1234AldCr7r4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MUeC9DKrBHlgdKcG2mX8HZKsd9+GiNfjwdKBy4A+1ahAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsP6Ef8zL0AAAA=[0m[Pipeline] }
+[8mha:////4Ckrimxcvi7V4XffECinW7ET/hWepKFAEtX4iBgIYP01AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AJuoOBW9AAAA[0m[Pipeline] // node
+[8mha:////4NYv8tKRH2Z+lwIA8H0hEeRvRUWszTjgv+8R/pmJePl5AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkLgzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HvbFfX70AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

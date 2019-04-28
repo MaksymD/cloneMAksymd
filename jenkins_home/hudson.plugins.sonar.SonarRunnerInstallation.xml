@@ -3,15 +3,8 @@
   <installations>
     <hudson.plugins.sonar.SonarRunnerInstallation>
       <name>SonarScanner</name>
-      <properties>
-        <hudson.tools.InstallSourceProperty>
-          <installers>
-            <hudson.plugins.sonar.SonarRunnerInstaller>
-              <id>3.3.0.1492</id>
-            </hudson.plugins.sonar.SonarRunnerInstaller>
-          </installers>
-        </hudson.tools.InstallSourceProperty>
-      </properties>
+      <home>/var/jenkins_home/sonar-scanner/sonar-scanner-3.3.0.1492-linux</home>
+      <properties/>
     </hudson.plugins.sonar.SonarRunnerInstallation>
   </installations>
 </hudson.plugins.sonar.SonarRunnerInstallation_-DescriptorImpl>

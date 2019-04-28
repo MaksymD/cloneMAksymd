@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-15 01:52:12.786 UTC</timestamp>
+  <original>
+    <name>Sample_Pipeline/master</name>
+    <number>1</number>
+  </original>
+  <md5sum>94e814e2efa8845d95b2112d54497fba</md5sum>
+  <fileName>Docker image sha256:94e814e2efa8845d95b2112d54497fbad173e45121ce9255b93401392f538499</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1555293132785</timestamp>
+      <imageId>sha256:94e814e2efa8845d95b2112d54497fbad173e45121ce9255b93401392f538499</imageId>
+      <usages>
+        <entry>
+          <string>Sample_Pipeline/master</string>
+          <ranges>1-2,4,15-18,21-22</ranges>
+        </entry>
+      </usages>
+      <descendantImageIds class="sorted-set">
+        <string>sha256:0d8b027eb6afa0f72836525fce328c4e735c079699cd9266354883a37ad430f3</string>
+        <string>sha256:135ad8c939f03ca18c6c0d08e1e86ceb269edb72f8f5ef524c320dee5acfb43f</string>
+        <string>sha256:20b915b9b8d1f900535270b8de090724076c70f84951b1bf82350257dd2acc88</string>
+        <string>sha256:28e2b99b6ced58e79a42f20178c814f017eb5ce4486ba3034c3ddf86386c59ea</string>
+        <string>sha256:45db39b764f3ff413259ab75e2ef25c39205a732bdf79a6742d9b7a407b0dd77</string>
+        <string>sha256:5a4a64ac2d303d3abe156d083a950a746814bf58d2859e55377be1091399f37a</string>
+        <string>sha256:949ea8b86fa2de7c00b31330d1a3836bee4e7c140b7557be241ca4cd5afee229</string>
+        <string>sha256:9d1de6664500e00cf8fa01094b043072950de107226ca5e2dc3515aa7a7b998b</string>
+        <string>sha256:e29f4b5ec7f4db649e3bab8caa729e6f59841fe07f496d096684a78f1c38886f</string>
+      </descendantImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.66">
+    <parentIds>
+      <string>16</string>
+    </parentIds>
+    <id>17</id>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.FromFingerprintStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.66">
+      <arguments>
+        <entry>
+          <string>image</string>
+          <string>4cc2be82675fc30cec58e738bb73d9fc1ef7245c</string>
+        </entry>
+        <entry>
+          <string>dockerfile</string>
+          <string>sample-application/Dockerfile</string>
+        </entry>
+        <entry>
+          <string>toolName</string>
+          <null/>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1555296032441</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

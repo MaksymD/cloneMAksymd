@@ -1,0 +1,15 @@
+commit dd9344e9bc5b61d91ef771da7f6776bb598e8f95
+tree 134ec3110e14d9e819a1a423c2227585fe7af9cb
+parent dfe98a8d811456e0ca655e58dba86849c0142540
+author maksymd <maksym.dotsenko@gmail.com> 2019-04-26 21:41:18 +0200
+committer maksymd <maksym.dotsenko@gmail.com> 2019-04-26 21:41:18 +0200
+
+    12
+
+
+
+:100755 100755 948627a5f36ded476d1cb4912d4ee51850eeaddd 95bc5310d6c142f07981a96514aa3009556617f1 M	.idea/workspace.xml
+:100755 100755 912eb80a96ec018ebf71c0c2c4082b8bbc1a2f6b 25213a0dcdd0e768f2d19aedfa93f30df2d71ada M	data/mysql/ib_logfile0
+:100755 100755 325d3591454b1077e69b6cc369d8f8d1f0ae8f6f b5623e0cf773e63df0ec9029cda109d99a8227bc M	data/mysql/ibdata1
+:100644 100644 c04769ee91b83439757a7e0178687d613e0eb99f 7f840d9b08e0c41ec77e89983ef450944fb2387c M	jenkins_home/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log
+:100755 100755 132ac5c3a60bacac6e1609c4ca8a741e5d8f5c3f 78d0127a7f610430c2029208b5259e919fdf5008 M	sample-application/Dockerfile

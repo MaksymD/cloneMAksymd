@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.66">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.66">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=a88c1e559dcd5a29d769b7da290733af710db24f</string>
+            <string>GIT_PREVIOUS_COMMIT=dd9344e9bc5b61d91ef771da7f6776bb598e8f95</string>
+            <string>GIT_URL=https://github.com/MaksymD/cloneMAksymd.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1556310369002</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
