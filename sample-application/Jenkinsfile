@@ -23,7 +23,8 @@ pipeline {
                 }
             }
         }
-        stage('syntax check') {
+        }
+        /*stage('syntax check') {
             steps {
             script {
               try {
@@ -38,7 +39,7 @@ pipeline {
                 }
             }
         }
-        }
+        }*/
         stage('checkstyle') {
             steps {
                 dir('sample-application') {

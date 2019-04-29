@@ -21,11 +21,11 @@ COPY ./sample-application/ /var/www/html
 WORKDIR /var/www/html
 
 #RUN apt-get update
-RUN apt-get -y update && \
-    apt-get -y upgrade && \
-    apt-get -y install curl && \
-    curl -V && \
-    curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash
+#RUN apt-get -y update && \
+#    apt-get -y upgrade && \
+#    apt-get -y install curl && \
+#    curl -V && \
+RUN curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash
 RUN apt-get update
 RUN apt-get -y install nodejs
 RUN node -v
@@ -33,7 +33,7 @@ RUN apt-get -y install npm
 RUN npm -v
 RUN npm install -g newman
 
-ENV COMPOSER_ALLOW_SUPERUSER=1
+#ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer require kununu/controller-validation-bundle:dev-master
 RUN composer install
