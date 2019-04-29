@@ -25,7 +25,7 @@ RUN apt-get update && \
     apt-get upgrade && \
     apt-get install curl && \
     curl -V && \
-    curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash --login -x
+    curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash
 RUN apt-get update
 RUN apt-get -y install nodejs
 RUN node -v
