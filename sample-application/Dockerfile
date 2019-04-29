@@ -21,8 +21,10 @@ COPY ./sample-application/ /var/www/html
 WORKDIR /var/www/html
 
 #RUN apt-get update
-RUN apt-get install curl && \
-    apt-get update && \
+RUN apt-get update && \
+    apt-get upgrade && \
+    apt-get install curl && \
+    curl -V && \
     curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash --login -x
 RUN apt-get update
 RUN apt-get -y install nodejs
