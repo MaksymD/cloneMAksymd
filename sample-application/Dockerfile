@@ -31,6 +31,7 @@ RUN apt-get -y install npm
 RUN npm -v
 RUN npm install -g newman
 
+ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer require kununu/controller-validation-bundle:dev-master
 RUN composer install
