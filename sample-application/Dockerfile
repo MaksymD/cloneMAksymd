@@ -21,8 +21,8 @@ COPY ./sample-application/ /var/www/html
 WORKDIR /var/www/html
 
 #RUN apt-get update
-RUN apt-get update && \
-    apt-get upgrade && \
+RUN apt-get -y update && \
+    apt-get -y upgrade && \
     apt-get -y install curl && \
     curl -V && \
     curl -sL 'https://deb.nodesource.com/node_10.x/dists/bionic/Release' | bash
